@@ -1378,6 +1378,7 @@ msgstr "Akce"
 msgid "Actions"
 msgstr "Akce"
 
+#. placeholder {0}: folder.folder
 #. placeholder {0}: page.title
 msgid "Actions for {0}"
 msgstr "Akce pro {0}"
@@ -1435,6 +1436,9 @@ msgstr "Přidejte projekt a uvidíte GitHub issues."
 msgid "Add a project to see pull requests."
 msgstr "Přidejte projekt a uvidíte pull requesty."
 
+msgid "Add a repository folder"
+msgstr "Přidat složku repozitáře"
+
 msgid "Add account"
 msgstr "Přidat účet"
 
@@ -1489,6 +1493,9 @@ msgstr "Přidat soubory, aplikace a další"
 msgid "Add files, apps, and more (@)"
 msgstr "Přidat soubory, aplikace a další (@)"
 
+msgid "Add folder"
+msgstr "Přidat složku"
+
 #. placeholder {0}: issue.issueNumber
 msgid "Add issue #{0} to workspace"
 msgstr "Přidat issue #{0} do pracovního prostoru"
@@ -1532,6 +1539,9 @@ msgstr "Doplň testy pro nejrizikovější netestovaný kód…"
 msgid "Add tests where they're missing"
 msgstr "Doplnit testy tam, kde chybí"
 
+msgid "Add the repositories this project works across. The first one is the primary."
+msgstr "Přidejte repozitáře, se kterými tento projekt pracuje. První z nich je hlavní."
+
 msgid "Add to Dictionary"
 msgstr "Přidat do slovníku"
 
@@ -1543,6 +1553,10 @@ msgstr "Přidat do pracovního prostoru"
 
 msgid "Add your own terminal agent to this device."
 msgstr "Přidejte na toto zařízení vlastního terminálového agenta."
+
+#. placeholder {0}: result.folder.folder
+msgid "Added {0} to this project"
+msgstr "{0} byl přidán do tohoto projektu"
 
 msgid "Added {added} files to {where}"
 msgstr "Přidáno {added} souborů do {where}"
@@ -1969,6 +1983,9 @@ msgstr "Anonymní montér"
 
 msgid "another device"
 msgstr "jiné zařízení"
+
+msgid "Another folder in this project already has that name."
+msgstr "Jiná složka v tomto projektu už tento název má."
 
 msgid "Answered"
 msgstr "Zodpovězeno"
@@ -2958,6 +2975,9 @@ msgstr "Řetězec úvah"
 msgid "Change avatar"
 msgstr "Změnit avatar"
 
+msgid "Change folder"
+msgstr "Změnit složku"
+
 msgid "Change location"
 msgstr "Změnit umístění"
 
@@ -2991,6 +3011,9 @@ msgstr "Změnit umístění worktree"
 
 msgid "Change-failure rate at or below the human-era baseline for two consecutive quarters."
 msgstr "Míra selhání změn na úrovni lidské éry nebo pod ní po dvě čtvrtletí po sobě."
+
+msgid "Changed files"
+msgstr "Změněné soubory"
 
 msgid "Changelog"
 msgstr "Changelog"
@@ -3327,6 +3350,9 @@ msgstr "Naklonujte repozitář nebo naimportujte existující složku na hostu."
 
 msgid "Clone, push, and create PRs."
 msgstr "Klonujte, odesílejte změny a vytvářejte PR."
+
+msgid "Cloned into each new workspace"
+msgstr "Klonuje se do každého nového pracovního prostoru"
 
 #. placeholder {0}: result.repoPath
 msgid "Cloned to {0}"
@@ -4232,6 +4258,11 @@ msgstr "Projekt se nepodařilo vytvořit"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "Projekt se nepodařilo vytvořit. Zkuste jiný název nebo se podívejte do logů."
 
+#. placeholder {0}: primary.name
+#. placeholder {1}: errorMessage(error)
+msgid "Could not create the project from \"{0}\": {1}"
+msgstr "Projekt se nepodařilo vytvořit z „{0}“: {1}"
+
 msgid "Could not delete account"
 msgstr "Účet se nepodařilo smazat"
 
@@ -4626,6 +4657,12 @@ msgstr "Vytvořit PR"
 msgid "Create PR failed: {0}"
 msgstr "Vytvoření PR se nezdařilo: {0}"
 
+msgid "Create project"
+msgstr "Vytvořit projekt"
+
+msgid "Create project with multiple folders"
+msgstr "Vytvořit projekt s více složkami"
+
 msgid "Create pull request"
 msgstr "Vytvořit pull request"
 
@@ -4744,6 +4781,9 @@ msgstr "Vytvářím worktree"
 
 msgid "Creating..."
 msgstr "Vytvářím..."
+
+msgid "Creating…"
+msgstr "Vytvářím…"
 
 msgid "Credentials stay on the server"
 msgstr "Přihlašovací údaje zůstávají na serveru"
@@ -6766,6 +6806,9 @@ msgstr "Složka"
 msgid "Folder links"
 msgstr "Odkazy na složky"
 
+msgid "Folder name"
+msgstr "Název složky"
+
 msgid "Folder view"
 msgstr "Zobrazení složek"
 
@@ -7143,6 +7186,9 @@ msgstr "Akce skupiny"
 
 msgid "Group new branches under a folder."
 msgstr "Seskupit nové větve pod složku."
+
+msgid "Group several repositories into one project. Every workspace checks out all of them."
+msgstr "Seskupte několik repozitářů do jednoho projektu. Každý pracovní prostor načte všechny."
 
 msgid "Growth"
 msgstr "Růst"
@@ -8435,6 +8481,9 @@ msgstr "Načítám rozdíly…"
 msgid "Loading files..."
 msgstr "Načítám soubory..."
 
+msgid "Loading folders…"
+msgstr "Načítání složek…"
+
 msgid "Loading fonts..."
 msgstr "Načítám fonty..."
 
@@ -8590,6 +8639,9 @@ msgstr "Nastavit jako výchozí"
 
 msgid "Make default — launch new terminals and agents on this account."
 msgstr "Nastavit jako výchozí — nové terminály a agenty spouštět na tomto účtu."
+
+msgid "Make primary"
+msgstr "Nastavit jako hlavní"
 
 msgid "Make sure the device is awake, online, and running Superset."
 msgstr "Ujistěte se, že je zařízení probuzené, online a běží na něm Superset."
@@ -9050,6 +9102,9 @@ msgstr "Můj agent"
 msgid "My Tasks"
 msgstr "Moje úkoly"
 
+msgid "my-project"
+msgstr "my-project"
+
 msgid "Mystery Machinist"
 msgstr "Záhadný strojník"
 
@@ -9276,6 +9331,9 @@ msgstr "noví tvůrci pracovních prostorů"
 
 msgid "New workspace in {name}"
 msgstr "Nový pracovní prostor v {name}"
+
+msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
+msgstr "Nové pracovní prostory už tento repozitář nebudou načítat. Stávající pracovní prostory si ho ponechají a z disku se nic nesmaže."
 
 msgid "New-user activation"
 msgstr "Aktivace nových uživatelů"
@@ -11050,6 +11108,9 @@ msgstr "Vyberte nadřazený adresář"
 msgid "Pick a project location"
 msgstr "Vyberte umístění projektu"
 
+msgid "Pick a repository on {hostName} to add to this project."
+msgstr "Vyberte na {hostName} repozitář, který chcete přidat do tohoto projektu."
+
 msgid "Pick a sound or add your own. Custom audio supports .mp3, .wav, and .ogg."
 msgstr "Vyberte zvuk nebo přidejte vlastní. Vlastní zvuk podporuje .mp3, .wav a .ogg."
 
@@ -11346,6 +11407,10 @@ msgstr "Cena závisí na vašem týmu a způsobu použití. Ozvěte se nám a se
 
 msgid "Primary"
 msgstr "Primární"
+
+msgctxt "badge on a project's primary source folder"
+msgid "Primary"
+msgstr "Hlavní"
 
 msgid "Primary Key"
 msgstr "Primární klíč"
@@ -11960,15 +12025,23 @@ msgstr "Vzdálený pracovní prostor — zařízení offline"
 msgid "Remove"
 msgstr "Odebrat"
 
+#. placeholder {0}: folder.name
 #. placeholder {0}: member.name
 msgid "Remove {0}"
 msgstr "Odebrat {0}"
+
+#. placeholder {0}: folder?.folder
+msgid "Remove {0} from this project?"
+msgstr "Odebrat {0} z tohoto projektu?"
 
 msgid "Remove {label}?"
 msgstr "Odebrat {label}?"
 
 msgid "Remove attachment"
 msgstr "Odebrat přílohu"
+
+msgid "Remove folder"
+msgstr "Odebrat složku"
 
 msgid "Remove from Queue"
 msgstr "Odebrat z fronty"
@@ -12060,6 +12133,9 @@ msgstr "Přejmenování selhalo"
 #. placeholder {0}: errorMessage(err)
 msgid "Rename failed: {0}"
 msgstr "Přejmenování selhalo: {0}"
+
+msgid "Rename folder"
+msgstr "Přejmenovat složku"
 
 msgid "Rename group"
 msgstr "Přejmenovat skupinu"
@@ -12167,6 +12243,9 @@ msgstr "Repozitáře"
 
 msgid "Repositories accessible through the GitHub App installation."
 msgstr "Repozitáře dostupné přes instalaci GitHub App."
+
+msgid "Repositories checked out into every workspace for this project. The primary is the one single-repository tools use."
+msgstr "Repozitáře načtené do každého pracovního prostoru tohoto projektu. Hlavní je ten, který používají nástroje pro jeden repozitář."
 
 msgid "Repositories refreshed"
 msgstr "Repozitáře obnoveny"
@@ -13099,6 +13178,12 @@ msgstr "Vyberte projekt a uvidíte pull requesty."
 msgid "Select a pull request to preview it here."
 msgstr "Vyberte pull request a zobrazí se tady jeho náhled."
 
+msgid "Select a repository to add"
+msgstr "Vyberte repozitář, který chcete přidat"
+
+msgid "Select a source folder"
+msgstr "Vyberte zdrojovou složku"
+
 msgid "Select a team"
 msgstr "Vyberte tým"
 
@@ -13950,6 +14035,9 @@ msgstr "Zdroj"
 
 msgid "Source Available"
 msgstr "Dostupný zdrojový kód"
+
+msgid "Source folders"
+msgstr "Zdrojové složky"
 
 msgid "Source path (not an import)"
 msgstr "Cesta ke zdroji (ne import)"
@@ -14885,6 +14973,9 @@ msgstr "Tento koncový bod se nepodařilo přeložit."
 msgid "That endpoint is not allowed."
 msgstr "Tento koncový bod není povolen."
 
+msgid "That folder is already in the list"
+msgstr "Tato složka už je v seznamu"
+
 msgid "That handle is taken."
 msgstr "Tato přezdívka je obsazená."
 
@@ -15098,6 +15189,14 @@ msgstr "Stránka, kterou hledáte, neexistuje."
 
 msgid "The people behind Superset."
 msgstr "Lidé za Supersetem."
+
+msgid "The primary folder can't be removed. Make another folder primary first."
+msgstr "Hlavní složku nelze odebrat. Nejprve nastavte jako hlavní jinou složku."
+
+#. placeholder {0}: folder.name
+#. placeholder {1}: errorMessage(error)
+msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
+msgstr "Projekt byl vytvořen, ale „{0}“ se nepodařilo přidat: {1}. Dříve přidané složky byly zachovány — odeberte ji nebo problém opravte a vytvořte projekt znovu."
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "Checkout projektu tak, jak je: soubory a větev jsou sdílené"
@@ -15348,6 +15447,9 @@ msgstr "Trvá to déle než obvykle. Relace už možná je připravená — nač
 msgid "This is taking longer than usual. The workspace may already be ready — reloading can pick it up."
 msgstr "Trvá to déle než obvykle. Pracovní prostor už možná je připravený — načtení znovu ho může zachytit."
 
+msgid "This is the directory the repository is checked out into inside each workspace."
+msgstr "Toto je adresář, do kterého se repozitář načítá uvnitř každého pracovního prostoru."
+
 msgid "This issue link is invalid."
 msgstr "Tento odkaz na issue je neplatný."
 
@@ -15408,6 +15510,9 @@ msgstr "Tento port se stále používá"
 
 msgid "This profile is busy right now"
 msgstr "Tento profil je právě přetížený"
+
+msgid "This project has no folders on {hostName} yet."
+msgstr "Tento projekt zatím nemá na {hostName} žádné složky."
 
 msgid "This project is no longer available on your devices."
 msgstr "Tento projekt už na vašich zařízeních není dostupný."
@@ -16232,6 +16337,9 @@ msgstr "Použít pro nové agenty"
 
 msgid "Use global default"
 msgstr "Použít globální výchozí"
+
+msgid "Use letters, digits, dots, dashes or underscores, starting with a letter or digit."
+msgstr "Použijte písmena, číslice, tečky, pomlčky nebo podtržítka a začněte písmenem nebo číslicí."
 
 msgid "Use Superset on mobile"
 msgstr "Používejte Superset na mobilu"

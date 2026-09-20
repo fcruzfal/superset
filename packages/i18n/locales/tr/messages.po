@@ -1378,6 +1378,7 @@ msgstr "Eylem"
 msgid "Actions"
 msgstr "Eylemler"
 
+#. placeholder {0}: folder.folder
 #. placeholder {0}: page.title
 msgid "Actions for {0}"
 msgstr "{0} için eylemler"
@@ -1435,6 +1436,9 @@ msgstr "GitHub issue'larını görmek için bir proje ekleyin."
 msgid "Add a project to see pull requests."
 msgstr "Pull request'leri görmek için bir proje ekleyin."
 
+msgid "Add a repository folder"
+msgstr "Depo klasörü ekle"
+
 msgid "Add account"
 msgstr "Hesap ekle"
 
@@ -1489,6 +1493,9 @@ msgstr "Dosya, uygulama ve daha fazlasını ekleyin"
 msgid "Add files, apps, and more (@)"
 msgstr "Dosya, uygulama ve daha fazlasını ekleyin (@)"
 
+msgid "Add folder"
+msgstr "Klasör ekle"
+
 #. placeholder {0}: issue.issueNumber
 msgid "Add issue #{0} to workspace"
 msgstr "#{0} issue'sunu çalışma alanına ekle"
@@ -1532,6 +1539,9 @@ msgstr "Test edilmemiş en riskli kod için test ekle…"
 msgid "Add tests where they're missing"
 msgstr "Eksik olan yerlere test ekle"
 
+msgid "Add the repositories this project works across. The first one is the primary."
+msgstr "Bu projenin birlikte çalıştığı depoları ekleyin. İlki birincil olur."
+
 msgid "Add to Dictionary"
 msgstr "Sözlüğe ekle"
 
@@ -1543,6 +1553,10 @@ msgstr "Çalışma alanına ekle"
 
 msgid "Add your own terminal agent to this device."
 msgstr "Bu cihaza kendi terminal ajanınızı ekleyin."
+
+#. placeholder {0}: result.folder.folder
+msgid "Added {0} to this project"
+msgstr "{0} bu projeye eklendi"
 
 msgid "Added {added} files to {where}"
 msgstr "{where} konumuna {added} dosya eklendi"
@@ -1969,6 +1983,9 @@ msgstr "Anonim Montajcı"
 
 msgid "another device"
 msgstr "başka bir cihaz"
+
+msgid "Another folder in this project already has that name."
+msgstr "Bu projede aynı ada sahip başka bir klasör zaten var."
 
 msgid "Answered"
 msgstr "Yanıtlandı"
@@ -2958,6 +2975,9 @@ msgstr "Düşünce zinciri"
 msgid "Change avatar"
 msgstr "Avatarı değiştir"
 
+msgid "Change folder"
+msgstr "Klasörü değiştir"
+
 msgid "Change location"
 msgstr "Konumu değiştir"
 
@@ -2991,6 +3011,9 @@ msgstr "Worktree konumunu değiştir"
 
 msgid "Change-failure rate at or below the human-era baseline for two consecutive quarters."
 msgstr "Değişiklik hata oranı, iki ardışık çeyrek boyunca insan dönemi taban çizgisinde veya altında kalır."
+
+msgid "Changed files"
+msgstr "Değiştirilen dosyalar"
 
 msgid "Changelog"
 msgstr "Değişiklik günlüğü"
@@ -3327,6 +3350,9 @@ msgstr "Depoyu klonlayın veya host'taki mevcut bir klasörü içe aktarın."
 
 msgid "Clone, push, and create PRs."
 msgstr "Klonlayın, gönderin ve PR oluşturun."
+
+msgid "Cloned into each new workspace"
+msgstr "Her yeni çalışma alanına klonlanır"
 
 #. placeholder {0}: result.repoPath
 msgid "Cloned to {0}"
@@ -4232,6 +4258,11 @@ msgstr "Proje oluşturulamadı"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "Proje oluşturulamadı. Lütfen farklı bir ad deneyin veya günlükleri kontrol edin."
 
+#. placeholder {0}: primary.name
+#. placeholder {1}: errorMessage(error)
+msgid "Could not create the project from \"{0}\": {1}"
+msgstr "Proje “{0}” klasöründen oluşturulamadı: {1}"
+
 msgid "Could not delete account"
 msgstr "Hesap silinemedi"
 
@@ -4626,6 +4657,12 @@ msgstr "PR oluştur"
 msgid "Create PR failed: {0}"
 msgstr "PR oluşturulamadı: {0}"
 
+msgid "Create project"
+msgstr "Proje oluştur"
+
+msgid "Create project with multiple folders"
+msgstr "Birden çok klasörlü proje oluştur"
+
 msgid "Create pull request"
 msgstr "Pull request oluştur"
 
@@ -4744,6 +4781,9 @@ msgstr "Worktree oluşturuluyor"
 
 msgid "Creating..."
 msgstr "Oluşturuluyor..."
+
+msgid "Creating…"
+msgstr "Oluşturuluyor…"
 
 msgid "Credentials stay on the server"
 msgstr "Kimlik bilgileri sunucuda kalır"
@@ -6766,6 +6806,9 @@ msgstr "Klasör"
 msgid "Folder links"
 msgstr "Klasör bağlantıları"
 
+msgid "Folder name"
+msgstr "Klasör adı"
+
 msgid "Folder view"
 msgstr "Klasör görünümü"
 
@@ -7143,6 +7186,9 @@ msgstr "Grup eylemleri"
 
 msgid "Group new branches under a folder."
 msgstr "Yeni dalları bir klasör altında toplayın."
+
+msgid "Group several repositories into one project. Every workspace checks out all of them."
+msgstr "Birden çok depoyu tek bir projede toplayın. Her çalışma alanına hepsi çıkarılır."
 
 msgid "Growth"
 msgstr "Büyüme"
@@ -8435,6 +8481,9 @@ msgstr "Fark yükleniyor…"
 msgid "Loading files..."
 msgstr "Dosyalar yükleniyor..."
 
+msgid "Loading folders…"
+msgstr "Klasörler yükleniyor…"
+
 msgid "Loading fonts..."
 msgstr "Yazı tipleri yükleniyor..."
 
@@ -8590,6 +8639,9 @@ msgstr "Varsayılan yap"
 
 msgid "Make default — launch new terminals and agents on this account."
 msgstr "Varsayılan yap — yeni terminalleri ve ajanları bu hesapta başlat."
+
+msgid "Make primary"
+msgstr "Birincil yap"
 
 msgid "Make sure the device is awake, online, and running Superset."
 msgstr "Cihazın uyanık, çevrimiçi ve Superset’in çalışır durumda olduğundan emin olun."
@@ -9050,6 +9102,9 @@ msgstr "Ajanım"
 msgid "My Tasks"
 msgstr "Görevlerim"
 
+msgid "my-project"
+msgstr "my-project"
+
 msgid "Mystery Machinist"
 msgstr "Gizemli Makinist"
 
@@ -9276,6 +9331,9 @@ msgstr "yeni çalışma alanı oluşturanlar"
 
 msgid "New workspace in {name}"
 msgstr "{name} içinde yeni çalışma alanı"
+
+msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
+msgstr "Yeni çalışma alanları bu depoyu artık çıkarmayacak. Mevcut çalışma alanları onu korur ve diskten hiçbir şey silinmez."
 
 msgid "New-user activation"
 msgstr "Yeni kullanıcı aktivasyonu"
@@ -11050,6 +11108,9 @@ msgstr "Bir üst dizin seçin"
 msgid "Pick a project location"
 msgstr "Bir proje konumu seçin"
 
+msgid "Pick a repository on {hostName} to add to this project."
+msgstr "Bu projeye eklemek için {hostName} üzerinde bir depo seçin."
+
 msgid "Pick a sound or add your own. Custom audio supports .mp3, .wav, and .ogg."
 msgstr "Bir ses seçin veya kendinizinkini ekleyin. Özel ses .mp3, .wav ve .ogg destekler."
 
@@ -11344,6 +11405,10 @@ msgstr "Fiyatlandırma"
 msgid "Pricing depends on your team and use case. Get in touch and we'll put together a plan that works for you."
 msgstr "Fiyatlandırma ekibinize ve kullanım senaryonuza bağlıdır. Bize ulaşın, size uygun bir plan hazırlayalım."
 
+msgid "Primary"
+msgstr "Birincil"
+
+msgctxt "badge on a project's primary source folder"
 msgid "Primary"
 msgstr "Birincil"
 
@@ -11960,15 +12025,23 @@ msgstr "Uzak çalışma alanı — cihaz çevrimdışı"
 msgid "Remove"
 msgstr "Kaldır"
 
+#. placeholder {0}: folder.name
 #. placeholder {0}: member.name
 msgid "Remove {0}"
 msgstr "{0} kişisini kaldır"
+
+#. placeholder {0}: folder?.folder
+msgid "Remove {0} from this project?"
+msgstr "{0} bu projeden kaldırılsın mı?"
 
 msgid "Remove {label}?"
 msgstr "{label} kaldırılsın mı?"
 
 msgid "Remove attachment"
 msgstr "Eki kaldır"
+
+msgid "Remove folder"
+msgstr "Klasörü kaldır"
 
 msgid "Remove from Queue"
 msgstr "Kuyruktan çıkar"
@@ -12060,6 +12133,9 @@ msgstr "Yeniden adlandırılamadı"
 #. placeholder {0}: errorMessage(err)
 msgid "Rename failed: {0}"
 msgstr "Yeniden adlandırılamadı: {0}"
+
+msgid "Rename folder"
+msgstr "Klasörü yeniden adlandır"
 
 msgid "Rename group"
 msgstr "Grubu yeniden adlandır"
@@ -12167,6 +12243,9 @@ msgstr "Depolar"
 
 msgid "Repositories accessible through the GitHub App installation."
 msgstr "GitHub App kurulumu üzerinden erişilebilen depolar."
+
+msgid "Repositories checked out into every workspace for this project. The primary is the one single-repository tools use."
+msgstr "Bu projenin her çalışma alanına çıkarılan depolar. Birincil olan, tek depolu araçların kullandığı depodur."
 
 msgid "Repositories refreshed"
 msgstr "Depolar yenilendi"
@@ -13099,6 +13178,12 @@ msgstr "Pull request'leri görmek için bir proje seçin."
 msgid "Select a pull request to preview it here."
 msgstr "Burada önizlemek için bir pull request seçin."
 
+msgid "Select a repository to add"
+msgstr "Eklenecek bir depo seçin"
+
+msgid "Select a source folder"
+msgstr "Bir kaynak klasör seçin"
+
 msgid "Select a team"
 msgstr "Bir takım seçin"
 
@@ -13950,6 +14035,9 @@ msgstr "Kaynak"
 
 msgid "Source Available"
 msgstr "Kaynağı açık"
+
+msgid "Source folders"
+msgstr "Kaynak klasörler"
 
 msgid "Source path (not an import)"
 msgstr "Kaynak yolu (içe aktarma değil)"
@@ -14885,6 +14973,9 @@ msgstr "Bu uç nokta çözümlenemedi."
 msgid "That endpoint is not allowed."
 msgstr "Bu uç noktaya izin verilmiyor."
 
+msgid "That folder is already in the list"
+msgstr "Bu klasör zaten listede"
+
 msgid "That handle is taken."
 msgstr "Bu kullanıcı adı alınmış."
 
@@ -15098,6 +15189,14 @@ msgstr "Aradığınız sayfa mevcut değil."
 
 msgid "The people behind Superset."
 msgstr "Superset'in arkasındaki insanlar."
+
+msgid "The primary folder can't be removed. Make another folder primary first."
+msgstr "Birincil klasör kaldırılamaz. Önce başka bir klasörü birincil yapın."
+
+#. placeholder {0}: folder.name
+#. placeholder {1}: errorMessage(error)
+msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
+msgstr "Proje oluşturuldu ancak “{0}” eklenemedi: {1}. Daha önce eklenen klasörler korundu — bu klasörü kaldırın ya da sorunu giderip yeniden oluşturun."
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "Projenin checkout'u olduğu gibi: dosyalar ve dal paylaşılır"
@@ -15348,6 +15447,9 @@ msgstr "Bu normalden uzun sürüyor. Oturum zaten hazır olabilir — yeniden y�
 msgid "This is taking longer than usual. The workspace may already be ready — reloading can pick it up."
 msgstr "Bu normalden uzun sürüyor. Çalışma alanı zaten hazır olabilir — yeniden yüklemek onu getirebilir."
 
+msgid "This is the directory the repository is checked out into inside each workspace."
+msgstr "Deponun her çalışma alanı içinde çıkarıldığı dizindir."
+
 msgid "This issue link is invalid."
 msgstr "Bu issue bağlantısı geçersiz."
 
@@ -15408,6 +15510,9 @@ msgstr "Bu port hâlâ kullanımda"
 
 msgid "This profile is busy right now"
 msgstr "Bu profil şu anda yoğun"
+
+msgid "This project has no folders on {hostName} yet."
+msgstr "Bu projenin {hostName} üzerinde henüz klasörü yok."
 
 msgid "This project is no longer available on your devices."
 msgstr "Bu proje artık cihazlarınızda kullanılamıyor."
@@ -16232,6 +16337,9 @@ msgstr "Yeni ajanlar için kullan"
 
 msgid "Use global default"
 msgstr "Genel varsayılanı kullan"
+
+msgid "Use letters, digits, dots, dashes or underscores, starting with a letter or digit."
+msgstr "Bir harf veya rakamla başlayarak harf, rakam, nokta, tire veya alt çizgi kullanın."
 
 msgid "Use Superset on mobile"
 msgstr "Superset’i mobilde kullanın"

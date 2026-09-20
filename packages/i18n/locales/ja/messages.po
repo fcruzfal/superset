@@ -1378,6 +1378,7 @@ msgstr "アクション"
 msgid "Actions"
 msgstr "アクション"
 
+#. placeholder {0}: folder.folder
 #. placeholder {0}: page.title
 msgid "Actions for {0}"
 msgstr "{0}の操作"
@@ -1435,6 +1436,9 @@ msgstr "プロジェクトを追加するとGitHub issueが表示されます。
 msgid "Add a project to see pull requests."
 msgstr "プロジェクトを追加するとプルリクエストが表示されます。"
 
+msgid "Add a repository folder"
+msgstr "リポジトリフォルダを追加"
+
 msgid "Add account"
 msgstr "アカウントを追加"
 
@@ -1489,6 +1493,9 @@ msgstr "ファイルやアプリなどを追加"
 msgid "Add files, apps, and more (@)"
 msgstr "ファイルやアプリなどを追加(@)"
 
+msgid "Add folder"
+msgstr "フォルダを追加"
+
 #. placeholder {0}: issue.issueNumber
 msgid "Add issue #{0} to workspace"
 msgstr "issue #{0}をワークスペースに追加"
@@ -1532,6 +1539,9 @@ msgstr "テストのない危険なコードにテストを追加…"
 msgid "Add tests where they're missing"
 msgstr "テストが不足している箇所に追加"
 
+msgid "Add the repositories this project works across. The first one is the primary."
+msgstr "このプロジェクトが扱うリポジトリを追加します。最初のものがプライマリになります。"
+
 msgid "Add to Dictionary"
 msgstr "辞書に追加"
 
@@ -1543,6 +1553,10 @@ msgstr "ワークスペースに追加"
 
 msgid "Add your own terminal agent to this device."
 msgstr "このデバイスに独自のターミナルエージェントを追加します。"
+
+#. placeholder {0}: result.folder.folder
+msgid "Added {0} to this project"
+msgstr "{0} をこのプロジェクトに追加しました"
 
 msgid "Added {added} files to {where}"
 msgstr "{added}件のファイルを{where}に追加しました"
@@ -1969,6 +1983,9 @@ msgstr "匿名の組立工"
 
 msgid "another device"
 msgstr "別のデバイス"
+
+msgid "Another folder in this project already has that name."
+msgstr "このプロジェクトには同じ名前のフォルダがすでにあります。"
 
 msgid "Answered"
 msgstr "回答済み"
@@ -2958,6 +2975,9 @@ msgstr "思考プロセス"
 msgid "Change avatar"
 msgstr "アバターを変更"
 
+msgid "Change folder"
+msgstr "フォルダを変更"
+
 msgid "Change location"
 msgstr "場所を変更"
 
@@ -2991,6 +3011,9 @@ msgstr "ワークツリーの場所を変更"
 
 msgid "Change-failure rate at or below the human-era baseline for two consecutive quarters."
 msgstr "変更失敗率が2四半期連続で人間の時代の基準値以下に収まる。"
+
+msgid "Changed files"
+msgstr "変更されたファイル"
 
 msgid "Changelog"
 msgstr "Changelog"
@@ -3327,6 +3350,9 @@ msgstr "リポジトリをクローンするか、ホスト上の既存フォル
 
 msgid "Clone, push, and create PRs."
 msgstr "クローン、プッシュ、PRの作成。"
+
+msgid "Cloned into each new workspace"
+msgstr "新しいワークスペースごとにクローンされます"
 
 #. placeholder {0}: result.repoPath
 msgid "Cloned to {0}"
@@ -4232,6 +4258,11 @@ msgstr "プロジェクトを作成できませんでした"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "プロジェクトを作成できませんでした。別の名前を試すか、ログを確認してください。"
 
+#. placeholder {0}: primary.name
+#. placeholder {1}: errorMessage(error)
+msgid "Could not create the project from \"{0}\": {1}"
+msgstr "「{0}」からプロジェクトを作成できませんでした: {1}"
+
 msgid "Could not delete account"
 msgstr "アカウントを削除できませんでした"
 
@@ -4626,6 +4657,12 @@ msgstr "PRを作成"
 msgid "Create PR failed: {0}"
 msgstr "PRの作成に失敗しました: {0}"
 
+msgid "Create project"
+msgstr "プロジェクトを作成"
+
+msgid "Create project with multiple folders"
+msgstr "複数フォルダのプロジェクトを作成"
+
 msgid "Create pull request"
 msgstr "プルリクエストを作成"
 
@@ -4744,6 +4781,9 @@ msgstr "ワークツリーを作成中"
 
 msgid "Creating..."
 msgstr "作成中..."
+
+msgid "Creating…"
+msgstr "作成中…"
 
 msgid "Credentials stay on the server"
 msgstr "認証情報はサーバー上に保持されます"
@@ -6766,6 +6806,9 @@ msgstr "フォルダ"
 msgid "Folder links"
 msgstr "フォルダリンク"
 
+msgid "Folder name"
+msgstr "フォルダ名"
+
 msgid "Folder view"
 msgstr "フォルダ表示"
 
@@ -7143,6 +7186,9 @@ msgstr "グループの操作"
 
 msgid "Group new branches under a folder."
 msgstr "新しいブランチをフォルダにまとめます。"
+
+msgid "Group several repositories into one project. Every workspace checks out all of them."
+msgstr "複数のリポジトリを 1 つのプロジェクトにまとめます。すべてのワークスペースにそのすべてがチェックアウトされます。"
 
 msgid "Growth"
 msgstr "グロース"
@@ -8435,6 +8481,9 @@ msgstr "差分を読み込み中…"
 msgid "Loading files..."
 msgstr "ファイルを読み込み中..."
 
+msgid "Loading folders…"
+msgstr "フォルダを読み込み中…"
+
 msgid "Loading fonts..."
 msgstr "フォントを読み込み中..."
 
@@ -8590,6 +8639,9 @@ msgstr "デフォルトにする"
 
 msgid "Make default — launch new terminals and agents on this account."
 msgstr "デフォルトにする — 新しいターミナルとエージェントをこのアカウントで起動します。"
+
+msgid "Make primary"
+msgstr "プライマリにする"
 
 msgid "Make sure the device is awake, online, and running Superset."
 msgstr "デバイスがスリープ状態ではなく、オンラインで Superset が起動していることを確認してください。"
@@ -9050,6 +9102,9 @@ msgstr "マイエージェント"
 msgid "My Tasks"
 msgstr "マイタスク"
 
+msgid "my-project"
+msgstr "my-project"
+
 msgid "Mystery Machinist"
 msgstr "謎の機械工"
 
@@ -9276,6 +9331,9 @@ msgstr "新規ワークスペース作成者"
 
 msgid "New workspace in {name}"
 msgstr "{name} に新規ワークスペース"
+
+msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
+msgstr "新しいワークスペースではこのリポジトリをチェックアウトしなくなります。既存のワークスペースはそのまま保持され、ディスクからは何も削除されません。"
 
 msgid "New-user activation"
 msgstr "新規ユーザーのアクティベーション"
@@ -11050,6 +11108,9 @@ msgstr "親ディレクトリを選択してください"
 msgid "Pick a project location"
 msgstr "プロジェクトの場所を選択してください"
 
+msgid "Pick a repository on {hostName} to add to this project."
+msgstr "このプロジェクトに追加するリポジトリを {hostName} 上で選択してください。"
+
 msgid "Pick a sound or add your own. Custom audio supports .mp3, .wav, and .ogg."
 msgstr "サウンドを選ぶか、独自の音声を追加してください。カスタム音声は.mp3、.wav、.ogg対応です。"
 
@@ -11344,6 +11405,10 @@ msgstr "料金"
 msgid "Pricing depends on your team and use case. Get in touch and we'll put together a plan that works for you."
 msgstr "料金はチームの規模と用途によって異なります。ご連絡いただければ、最適なプランをご提案します。"
 
+msgid "Primary"
+msgstr "プライマリ"
+
+msgctxt "badge on a project's primary source folder"
 msgid "Primary"
 msgstr "プライマリ"
 
@@ -11960,15 +12025,23 @@ msgstr "リモートワークスペース — デバイスがオフライン"
 msgid "Remove"
 msgstr "削除"
 
+#. placeholder {0}: folder.name
 #. placeholder {0}: member.name
 msgid "Remove {0}"
 msgstr "{0}を削除"
+
+#. placeholder {0}: folder?.folder
+msgid "Remove {0} from this project?"
+msgstr "{0} をこのプロジェクトから削除しますか？"
 
 msgid "Remove {label}?"
 msgstr "{label}を削除しますか?"
 
 msgid "Remove attachment"
 msgstr "添付ファイルを削除"
+
+msgid "Remove folder"
+msgstr "フォルダを削除"
 
 msgid "Remove from Queue"
 msgstr "キューから削除"
@@ -12060,6 +12133,9 @@ msgstr "名前の変更に失敗しました"
 #. placeholder {0}: errorMessage(err)
 msgid "Rename failed: {0}"
 msgstr "名前の変更に失敗しました: {0}"
+
+msgid "Rename folder"
+msgstr "フォルダ名を変更"
 
 msgid "Rename group"
 msgstr "グループ名を変更"
@@ -12167,6 +12243,9 @@ msgstr "リポジトリ"
 
 msgid "Repositories accessible through the GitHub App installation."
 msgstr "GitHub Appのインストールからアクセスできるリポジトリです。"
+
+msgid "Repositories checked out into every workspace for this project. The primary is the one single-repository tools use."
+msgstr "このプロジェクトのすべてのワークスペースにチェックアウトされるリポジトリです。プライマリは単一リポジトリ向けのツールが使用するものです。"
 
 msgid "Repositories refreshed"
 msgstr "リポジトリを更新しました"
@@ -13099,6 +13178,12 @@ msgstr "プロジェクトを選択するとプルリクエストが表示され
 msgid "Select a pull request to preview it here."
 msgstr "プルリクエストを選択するとここでプレビューできます。"
 
+msgid "Select a repository to add"
+msgstr "追加するリポジトリを選択"
+
+msgid "Select a source folder"
+msgstr "ソースフォルダを選択"
+
 msgid "Select a team"
 msgstr "チームを選択"
 
@@ -13950,6 +14035,9 @@ msgstr "ソース"
 
 msgid "Source Available"
 msgstr "ソース公開"
+
+msgid "Source folders"
+msgstr "ソースフォルダ"
 
 msgid "Source path (not an import)"
 msgstr "ソースパス(インポートパスではありません)"
@@ -14885,6 +14973,9 @@ msgstr "そのエンドポイントを解決できませんでした。"
 msgid "That endpoint is not allowed."
 msgstr "そのエンドポイントは許可されていません。"
 
+msgid "That folder is already in the list"
+msgstr "そのフォルダはすでにリストにあります"
+
 msgid "That handle is taken."
 msgstr "そのハンドルは使用済みです。"
 
@@ -15098,6 +15189,14 @@ msgstr "お探しのページは存在しません。"
 
 msgid "The people behind Superset."
 msgstr "Supersetを作っている人たち。"
+
+msgid "The primary folder can't be removed. Make another folder primary first."
+msgstr "プライマリフォルダは削除できません。先に別のフォルダをプライマリにしてください。"
+
+#. placeholder {0}: folder.name
+#. placeholder {1}: errorMessage(error)
+msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
+msgstr "プロジェクトは作成されましたが、「{0}」を追加できませんでした: {1}。それより前に追加されたフォルダは保持されています — このフォルダを削除するか問題を解決して、もう一度作成してください。"
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "プロジェクトのチェックアウトをそのまま使用: ファイルとブランチは共有されます"
@@ -15348,6 +15447,9 @@ msgstr "通常より時間がかかっています。セッションはすでに
 msgid "This is taking longer than usual. The workspace may already be ready — reloading can pick it up."
 msgstr "通常より時間がかかっています。ワークスペースはすでに準備できているかもしれません — 再読み込みで表示される場合があります。"
 
+msgid "This is the directory the repository is checked out into inside each workspace."
+msgstr "各ワークスペース内でリポジトリがチェックアウトされるディレクトリです。"
+
 msgid "This issue link is invalid."
 msgstr "このissueリンクは無効です。"
 
@@ -15408,6 +15510,9 @@ msgstr "このポートはまだ使用中です"
 
 msgid "This profile is busy right now"
 msgstr "このプロフィールは現在混み合っています"
+
+msgid "This project has no folders on {hostName} yet."
+msgstr "このプロジェクトには {hostName} 上にまだフォルダがありません。"
 
 msgid "This project is no longer available on your devices."
 msgstr "このプロジェクトはお使いのデバイスでは利用できなくなりました。"
@@ -16232,6 +16337,9 @@ msgstr "新規エージェントに使用"
 
 msgid "Use global default"
 msgstr "グローバルのデフォルトを使用"
+
+msgid "Use letters, digits, dots, dashes or underscores, starting with a letter or digit."
+msgstr "英数字、ドット、ダッシュ、アンダースコアを使用し、先頭は英数字にしてください。"
 
 msgid "Use Superset on mobile"
 msgstr "モバイルでSupersetを使う"

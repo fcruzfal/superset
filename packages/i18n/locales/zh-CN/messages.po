@@ -1378,6 +1378,7 @@ msgstr "操作"
 msgid "Actions"
 msgstr "操作"
 
+#. placeholder {0}: folder.folder
 #. placeholder {0}: page.title
 msgid "Actions for {0}"
 msgstr "{0}的操作"
@@ -1435,6 +1436,9 @@ msgstr "添加项目以查看GitHub议题。"
 msgid "Add a project to see pull requests."
 msgstr "添加一个项目来查看拉取请求。"
 
+msgid "Add a repository folder"
+msgstr "添加仓库文件夹"
+
 msgid "Add account"
 msgstr "添加账户"
 
@@ -1489,6 +1493,9 @@ msgstr "添加文件、应用等"
 msgid "Add files, apps, and more (@)"
 msgstr "添加文件、应用等（@）"
 
+msgid "Add folder"
+msgstr "添加文件夹"
+
 #. placeholder {0}: issue.issueNumber
 msgid "Add issue #{0} to workspace"
 msgstr "将议题#{0}添加到工作区"
@@ -1532,6 +1539,9 @@ msgstr "给风险最高又没测试的代码补上测试…"
 msgid "Add tests where they're missing"
 msgstr "给缺测试的地方补测试"
 
+msgid "Add the repositories this project works across. The first one is the primary."
+msgstr "添加此项目需要用到的仓库。第一个是主文件夹。"
+
 msgid "Add to Dictionary"
 msgstr "添加到词典"
 
@@ -1543,6 +1553,10 @@ msgstr "添加到工作区"
 
 msgid "Add your own terminal agent to this device."
 msgstr "向此设备添加你自己的终端智能体。"
+
+#. placeholder {0}: result.folder.folder
+msgid "Added {0} to this project"
+msgstr "已将 {0} 添加到此项目"
 
 msgid "Added {added} files to {where}"
 msgstr "已向{where}添加{added}个文件"
@@ -1969,6 +1983,9 @@ msgstr "匿名装配工"
 
 msgid "another device"
 msgstr "另一台设备"
+
+msgid "Another folder in this project already has that name."
+msgstr "此项目中已有同名文件夹。"
 
 msgid "Answered"
 msgstr "已回答"
@@ -2958,6 +2975,9 @@ msgstr "思维链"
 msgid "Change avatar"
 msgstr "更换头像"
 
+msgid "Change folder"
+msgstr "更改文件夹"
+
 msgid "Change location"
 msgstr "更改位置"
 
@@ -2991,6 +3011,9 @@ msgstr "更改worktree位置"
 
 msgid "Change-failure rate at or below the human-era baseline for two consecutive quarters."
 msgstr "变更失败率连续两个季度不高于人类时代的基线。"
+
+msgid "Changed files"
+msgstr "已更改的文件"
 
 msgid "Changelog"
 msgstr "更新日志"
@@ -3327,6 +3350,9 @@ msgstr "克隆仓库，或导入主机上已有的文件夹。"
 
 msgid "Clone, push, and create PRs."
 msgstr "克隆、推送并创建 PR。"
+
+msgid "Cloned into each new workspace"
+msgstr "克隆到每个新工作区"
 
 #. placeholder {0}: result.repoPath
 msgid "Cloned to {0}"
@@ -4232,6 +4258,11 @@ msgstr "无法创建项目"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "无法创建项目。请换一个名称，或查看日志。"
 
+#. placeholder {0}: primary.name
+#. placeholder {1}: errorMessage(error)
+msgid "Could not create the project from \"{0}\": {1}"
+msgstr "无法从“{0}”创建项目：{1}"
+
 msgid "Could not delete account"
 msgstr "无法删除账户"
 
@@ -4626,6 +4657,12 @@ msgstr "创建PR"
 msgid "Create PR failed: {0}"
 msgstr "创建PR失败：{0}"
 
+msgid "Create project"
+msgstr "创建项目"
+
+msgid "Create project with multiple folders"
+msgstr "创建包含多个文件夹的项目"
+
 msgid "Create pull request"
 msgstr "创建拉取请求"
 
@@ -4744,6 +4781,9 @@ msgstr "正在创建worktree"
 
 msgid "Creating..."
 msgstr "正在创建..."
+
+msgid "Creating…"
+msgstr "正在创建…"
 
 msgid "Credentials stay on the server"
 msgstr "凭据保留在服务器上"
@@ -6766,6 +6806,9 @@ msgstr "文件夹"
 msgid "Folder links"
 msgstr "文件夹链接"
 
+msgid "Folder name"
+msgstr "文件夹名称"
+
 msgid "Folder view"
 msgstr "文件夹视图"
 
@@ -7143,6 +7186,9 @@ msgstr "分组操作"
 
 msgid "Group new branches under a folder."
 msgstr "将新分支归入一个文件夹。"
+
+msgid "Group several repositories into one project. Every workspace checks out all of them."
+msgstr "把多个仓库归到一个项目中。每个工作区都会检出全部仓库。"
 
 msgid "Growth"
 msgstr "增长"
@@ -8435,6 +8481,9 @@ msgstr "正在加载差异…"
 msgid "Loading files..."
 msgstr "正在加载文件..."
 
+msgid "Loading folders…"
+msgstr "正在加载文件夹…"
+
 msgid "Loading fonts..."
 msgstr "正在加载字体..."
 
@@ -8590,6 +8639,9 @@ msgstr "设为默认"
 
 msgid "Make default — launch new terminals and agents on this account."
 msgstr "设为默认——新终端和智能体将使用此账户启动。"
+
+msgid "Make primary"
+msgstr "设为主文件夹"
 
 msgid "Make sure the device is awake, online, and running Superset."
 msgstr "请确认设备未休眠、已联网且正在运行 Superset。"
@@ -9050,6 +9102,9 @@ msgstr "我的智能体"
 msgid "My Tasks"
 msgstr "我的任务"
 
+msgid "my-project"
+msgstr "my-project"
+
 msgid "Mystery Machinist"
 msgstr "神秘机械师"
 
@@ -9276,6 +9331,9 @@ msgstr "新增工作区创建者"
 
 msgid "New workspace in {name}"
 msgstr "在 {name} 中新建工作区"
+
+msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
+msgstr "新工作区将不再检出此仓库。现有工作区会保留它，磁盘上的内容不会被删除。"
 
 msgid "New-user activation"
 msgstr "新用户激活"
@@ -11050,6 +11108,9 @@ msgstr "请选择父目录"
 msgid "Pick a project location"
 msgstr "请选择项目位置"
 
+msgid "Pick a repository on {hostName} to add to this project."
+msgstr "在 {hostName} 上选择要添加到此项目的仓库。"
+
 msgid "Pick a sound or add your own. Custom audio supports .mp3, .wav, and .ogg."
 msgstr "选择一个声音或添加自己的。自定义音频支持.mp3、.wav和.ogg。"
 
@@ -11346,6 +11407,10 @@ msgstr "价格取决于你的团队规模和使用场景。联系我们，我们
 
 msgid "Primary"
 msgstr "主色"
+
+msgctxt "badge on a project's primary source folder"
+msgid "Primary"
+msgstr "主文件夹"
 
 msgid "Primary Key"
 msgstr "主键"
@@ -11960,15 +12025,23 @@ msgstr "远程工作区，设备离线"
 msgid "Remove"
 msgstr "移除"
 
+#. placeholder {0}: folder.name
 #. placeholder {0}: member.name
 msgid "Remove {0}"
 msgstr "移除{0}"
+
+#. placeholder {0}: folder?.folder
+msgid "Remove {0} from this project?"
+msgstr "要将 {0} 从此项目中移除吗？"
 
 msgid "Remove {label}?"
 msgstr "移除{label}？"
 
 msgid "Remove attachment"
 msgstr "移除附件"
+
+msgid "Remove folder"
+msgstr "移除文件夹"
 
 msgid "Remove from Queue"
 msgstr "移出队列"
@@ -12060,6 +12133,9 @@ msgstr "重命名失败"
 #. placeholder {0}: errorMessage(err)
 msgid "Rename failed: {0}"
 msgstr "重命名失败：{0}"
+
+msgid "Rename folder"
+msgstr "重命名文件夹"
 
 msgid "Rename group"
 msgstr "重命名分组"
@@ -12167,6 +12243,9 @@ msgstr "仓库"
 
 msgid "Repositories accessible through the GitHub App installation."
 msgstr "通过GitHub App安装可访问的仓库。"
+
+msgid "Repositories checked out into every workspace for this project. The primary is the one single-repository tools use."
+msgstr "为此项目的每个工作区检出的仓库。主文件夹是单仓库工具使用的那一个。"
 
 msgid "Repositories refreshed"
 msgstr "仓库已刷新"
@@ -13099,6 +13178,12 @@ msgstr "选择一个项目来查看拉取请求。"
 msgid "Select a pull request to preview it here."
 msgstr "选择一个拉取请求，在这里预览。"
 
+msgid "Select a repository to add"
+msgstr "选择要添加的仓库"
+
+msgid "Select a source folder"
+msgstr "选择源文件夹"
+
 msgid "Select a team"
 msgstr "选择团队"
 
@@ -13950,6 +14035,9 @@ msgstr "来源"
 
 msgid "Source Available"
 msgstr "源码可见"
+
+msgid "Source folders"
+msgstr "源文件夹"
 
 msgid "Source path (not an import)"
 msgstr "源码路径（不是导入路径）"
@@ -14885,6 +14973,9 @@ msgstr "无法解析该端点。"
 msgid "That endpoint is not allowed."
 msgstr "该端点不被允许。"
 
+msgid "That folder is already in the list"
+msgstr "该文件夹已在列表中"
+
 msgid "That handle is taken."
 msgstr "该用户名已被占用。"
 
@@ -15098,6 +15189,14 @@ msgstr "你要找的页面不存在。"
 
 msgid "The people behind Superset."
 msgstr "Superset背后的团队。"
+
+msgid "The primary folder can't be removed. Make another folder primary first."
+msgstr "无法移除主文件夹。请先将另一个文件夹设为主文件夹。"
+
+#. placeholder {0}: folder.name
+#. placeholder {1}: errorMessage(error)
+msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
+msgstr "项目已创建，但无法添加“{0}”：{1}。此前已添加的文件夹会保留——请移除该文件夹或修复问题后重新创建。"
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "按原样使用项目的检出: 文件和分支是共享的"
@@ -15348,6 +15447,9 @@ msgstr "这比平时耗时更久。会话可能已经就绪 — 重新加载即�
 msgid "This is taking longer than usual. The workspace may already be ready — reloading can pick it up."
 msgstr "这比平时耗时更久。工作区可能已经就绪 — 重新加载即可接上。"
 
+msgid "This is the directory the repository is checked out into inside each workspace."
+msgstr "这是仓库在每个工作区中检出的目录。"
+
 msgid "This issue link is invalid."
 msgstr "此议题链接无效。"
 
@@ -15408,6 +15510,9 @@ msgstr "此端口仍在使用中"
 
 msgid "This profile is busy right now"
 msgstr "此个人主页当前繁忙"
+
+msgid "This project has no folders on {hostName} yet."
+msgstr "此项目在 {hostName} 上还没有文件夹。"
 
 msgid "This project is no longer available on your devices."
 msgstr "这个项目在你的设备上已不可用。"
@@ -16232,6 +16337,9 @@ msgstr "用于新智能体"
 
 msgid "Use global default"
 msgstr "使用全局默认值"
+
+msgid "Use letters, digits, dots, dashes or underscores, starting with a letter or digit."
+msgstr "请使用字母、数字、点、短横线或下划线，并以字母或数字开头。"
 
 msgid "Use Superset on mobile"
 msgstr "在手机上使用 Superset"

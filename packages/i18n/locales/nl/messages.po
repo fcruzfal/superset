@@ -1378,6 +1378,7 @@ msgstr "Actie"
 msgid "Actions"
 msgstr "Acties"
 
+#. placeholder {0}: folder.folder
 #. placeholder {0}: page.title
 msgid "Actions for {0}"
 msgstr "Acties voor {0}"
@@ -1435,6 +1436,9 @@ msgstr "Voeg een project toe om GitHub-issues te zien."
 msgid "Add a project to see pull requests."
 msgstr "Voeg een project toe om pull requests te zien."
 
+msgid "Add a repository folder"
+msgstr "Een repositorymap toevoegen"
+
 msgid "Add account"
 msgstr "Account toevoegen"
 
@@ -1489,6 +1493,9 @@ msgstr "Bestanden, apps en meer toevoegen"
 msgid "Add files, apps, and more (@)"
 msgstr "Bestanden, apps en meer toevoegen (@)"
 
+msgid "Add folder"
+msgstr "Map toevoegen"
+
 #. placeholder {0}: issue.issueNumber
 msgid "Add issue #{0} to workspace"
 msgstr "Issue #{0} toevoegen aan werkruimte"
@@ -1532,6 +1539,9 @@ msgstr "Voeg tests toe voor de riskantste ongeteste code…"
 msgid "Add tests where they're missing"
 msgstr "Tests toevoegen waar ze ontbreken"
 
+msgid "Add the repositories this project works across. The first one is the primary."
+msgstr "Voeg de repository's toe waarmee dit project werkt. De eerste is de primaire."
+
 msgid "Add to Dictionary"
 msgstr "Toevoegen aan woordenboek"
 
@@ -1543,6 +1553,10 @@ msgstr "Toevoegen aan werkruimte"
 
 msgid "Add your own terminal agent to this device."
 msgstr "Voeg je eigen terminalagent toe aan dit apparaat."
+
+#. placeholder {0}: result.folder.folder
+msgid "Added {0} to this project"
+msgstr "{0} is aan dit project toegevoegd"
 
 msgid "Added {added} files to {where}"
 msgstr "{added} bestanden toegevoegd aan {where}"
@@ -1969,6 +1983,9 @@ msgstr "Anonieme Assembleur"
 
 msgid "another device"
 msgstr "een ander apparaat"
+
+msgid "Another folder in this project already has that name."
+msgstr "Een andere map in dit project heeft die naam al."
 
 msgid "Answered"
 msgstr "Beantwoord"
@@ -2958,6 +2975,9 @@ msgstr "Gedachtegang"
 msgid "Change avatar"
 msgstr "Avatar wijzigen"
 
+msgid "Change folder"
+msgstr "Map wijzigen"
+
 msgid "Change location"
 msgstr "Locatie wijzigen"
 
@@ -2991,6 +3011,9 @@ msgstr "Worktree-locatie wijzigen"
 
 msgid "Change-failure rate at or below the human-era baseline for two consecutive quarters."
 msgstr "Het percentage mislukte wijzigingen ligt twee kwartalen op rij op of onder het niveau van het menselijke tijdperk."
+
+msgid "Changed files"
+msgstr "Gewijzigde bestanden"
 
 msgid "Changelog"
 msgstr "Changelog"
@@ -3327,6 +3350,9 @@ msgstr "Kloon de repository of importeer een bestaande map op de host."
 
 msgid "Clone, push, and create PRs."
 msgstr "Kloon, push en maak PR’s."
+
+msgid "Cloned into each new workspace"
+msgstr "Wordt naar elke nieuwe werkruimte gekloond"
 
 #. placeholder {0}: result.repoPath
 msgid "Cloned to {0}"
@@ -4232,6 +4258,11 @@ msgstr "Kan project niet aanmaken"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "Kan project niet aanmaken. Probeer een andere naam of bekijk de logs."
 
+#. placeholder {0}: primary.name
+#. placeholder {1}: errorMessage(error)
+msgid "Could not create the project from \"{0}\": {1}"
+msgstr "Kon het project niet maken op basis van “{0}”: {1}"
+
 msgid "Could not delete account"
 msgstr "Kan account niet verwijderen"
 
@@ -4626,6 +4657,12 @@ msgstr "PR aanmaken"
 msgid "Create PR failed: {0}"
 msgstr "PR aanmaken mislukt: {0}"
 
+msgid "Create project"
+msgstr "Project maken"
+
+msgid "Create project with multiple folders"
+msgstr "Project met meerdere mappen maken"
+
 msgid "Create pull request"
 msgstr "Pull request aanmaken"
 
@@ -4744,6 +4781,9 @@ msgstr "Worktree aanmaken"
 
 msgid "Creating..."
 msgstr "Aanmaken..."
+
+msgid "Creating…"
+msgstr "Bezig met maken…"
 
 msgid "Credentials stay on the server"
 msgstr "Inloggegevens blijven op de server"
@@ -6766,6 +6806,9 @@ msgstr "Map"
 msgid "Folder links"
 msgstr "Maplinks"
 
+msgid "Folder name"
+msgstr "Mapnaam"
+
 msgid "Folder view"
 msgstr "Mapweergave"
 
@@ -7143,6 +7186,9 @@ msgstr "Groepsacties"
 
 msgid "Group new branches under a folder."
 msgstr "Groepeer nieuwe branches onder een map."
+
+msgid "Group several repositories into one project. Every workspace checks out all of them."
+msgstr "Groepeer meerdere repository's in één project. Elke werkruimte checkt ze allemaal uit."
 
 msgid "Growth"
 msgstr "Groei"
@@ -8435,6 +8481,9 @@ msgstr "Diff laden…"
 msgid "Loading files..."
 msgstr "Bestanden laden..."
 
+msgid "Loading folders…"
+msgstr "Mappen laden…"
+
 msgid "Loading fonts..."
 msgstr "Lettertypen laden..."
 
@@ -8590,6 +8639,9 @@ msgstr "Standaard maken"
 
 msgid "Make default — launch new terminals and agents on this account."
 msgstr "Standaard maken — start nieuwe terminals en agents op dit account."
+
+msgid "Make primary"
+msgstr "Als primair instellen"
 
 msgid "Make sure the device is awake, online, and running Superset."
 msgstr "Zorg dat het apparaat wakker en online is en dat Superset erop draait."
@@ -9050,6 +9102,9 @@ msgstr "Mijn agent"
 msgid "My Tasks"
 msgstr "Mijn taken"
 
+msgid "my-project"
+msgstr "my-project"
+
 msgid "Mystery Machinist"
 msgstr "Mysterieuze Machinist"
 
@@ -9276,6 +9331,9 @@ msgstr "nieuwe makers van werkruimtes"
 
 msgid "New workspace in {name}"
 msgstr "Nieuwe werkruimte in {name}"
+
+msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
+msgstr "Nieuwe werkruimtes checken deze repository niet meer uit. Bestaande werkruimtes behouden hem en er wordt niets van schijf verwijderd."
 
 msgid "New-user activation"
 msgstr "Activatie van nieuwe gebruikers"
@@ -11050,6 +11108,9 @@ msgstr "Kies een bovenliggende map"
 msgid "Pick a project location"
 msgstr "Kies een projectlocatie"
 
+msgid "Pick a repository on {hostName} to add to this project."
+msgstr "Kies een repository op {hostName} om aan dit project toe te voegen."
+
 msgid "Pick a sound or add your own. Custom audio supports .mp3, .wav, and .ogg."
 msgstr "Kies een geluid of voeg je eigen toe. Eigen audio ondersteunt .mp3, .wav en .ogg."
 
@@ -11344,6 +11405,10 @@ msgstr "Prijzen"
 msgid "Pricing depends on your team and use case. Get in touch and we'll put together a plan that works for you."
 msgstr "De prijs hangt af van je team en use case. Neem contact op, dan stellen we een plan samen dat bij je past."
 
+msgid "Primary"
+msgstr "Primair"
+
+msgctxt "badge on a project's primary source folder"
 msgid "Primary"
 msgstr "Primair"
 
@@ -11960,15 +12025,23 @@ msgstr "Externe werkruimte — apparaat offline"
 msgid "Remove"
 msgstr "Verwijderen"
 
+#. placeholder {0}: folder.name
 #. placeholder {0}: member.name
 msgid "Remove {0}"
 msgstr "{0} verwijderen"
+
+#. placeholder {0}: folder?.folder
+msgid "Remove {0} from this project?"
+msgstr "{0} uit dit project verwijderen?"
 
 msgid "Remove {label}?"
 msgstr "{label} verwijderen?"
 
 msgid "Remove attachment"
 msgstr "Bijlage verwijderen"
+
+msgid "Remove folder"
+msgstr "Map verwijderen"
 
 msgid "Remove from Queue"
 msgstr "Uit wachtrij halen"
@@ -12060,6 +12133,9 @@ msgstr "Naam wijzigen mislukt"
 #. placeholder {0}: errorMessage(err)
 msgid "Rename failed: {0}"
 msgstr "Naam wijzigen mislukt: {0}"
+
+msgid "Rename folder"
+msgstr "Map hernoemen"
 
 msgid "Rename group"
 msgstr "Groepsnaam wijzigen"
@@ -12167,6 +12243,9 @@ msgstr "Repository's"
 
 msgid "Repositories accessible through the GitHub App installation."
 msgstr "Repository's die via de GitHub App-installatie bereikbaar zijn."
+
+msgid "Repositories checked out into every workspace for this project. The primary is the one single-repository tools use."
+msgstr "Repository's die in elke werkruimte van dit project worden uitgecheckt. De primaire is degene die tools voor één repository gebruiken."
 
 msgid "Repositories refreshed"
 msgstr "Repositories vernieuwd"
@@ -13099,6 +13178,12 @@ msgstr "Kies een project om pull requests te zien."
 msgid "Select a pull request to preview it here."
 msgstr "Kies een pull request om hem hier te bekijken."
 
+msgid "Select a repository to add"
+msgstr "Selecteer een repository om toe te voegen"
+
+msgid "Select a source folder"
+msgstr "Selecteer een bronmap"
+
 msgid "Select a team"
 msgstr "Kies een team"
 
@@ -13950,6 +14035,9 @@ msgstr "Bron"
 
 msgid "Source Available"
 msgstr "Source available"
+
+msgid "Source folders"
+msgstr "Bronmappen"
 
 msgid "Source path (not an import)"
 msgstr "Bronpad (geen import)"
@@ -14885,6 +14973,9 @@ msgstr "Dat endpoint kon niet worden omgezet."
 msgid "That endpoint is not allowed."
 msgstr "Dat endpoint is niet toegestaan."
 
+msgid "That folder is already in the list"
+msgstr "Die map staat al in de lijst"
+
 msgid "That handle is taken."
 msgstr "Die handle is al bezet."
 
@@ -15098,6 +15189,14 @@ msgstr "De pagina die je zoekt bestaat niet."
 
 msgid "The people behind Superset."
 msgstr "De mensen achter Superset."
+
+msgid "The primary folder can't be removed. Make another folder primary first."
+msgstr "De primaire map kan niet worden verwijderd. Stel eerst een andere map als primair in."
+
+#. placeholder {0}: folder.name
+#. placeholder {1}: errorMessage(error)
+msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
+msgstr "Het project is gemaakt, maar “{0}” kon niet worden toegevoegd: {1}. De eerder toegevoegde mappen zijn behouden — verwijder deze map of los het probleem op en maak het project opnieuw aan."
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "De checkout van het project zoals die is: bestanden en branch worden gedeeld"
@@ -15348,6 +15447,9 @@ msgstr "Dit duurt langer dan gewoonlijk. De sessie is mogelijk al klaar — herl
 msgid "This is taking longer than usual. The workspace may already be ready — reloading can pick it up."
 msgstr "Dit duurt langer dan gewoonlijk. De werkruimte is mogelijk al klaar — herladen kan hem oppikken."
 
+msgid "This is the directory the repository is checked out into inside each workspace."
+msgstr "Dit is de map waarin de repository binnen elke werkruimte wordt uitgecheckt."
+
 msgid "This issue link is invalid."
 msgstr "Deze link naar een issue is ongeldig."
 
@@ -15408,6 +15510,9 @@ msgstr "Deze poort is nog in gebruik"
 
 msgid "This profile is busy right now"
 msgstr "Dit profiel is momenteel druk bezet"
+
+msgid "This project has no folders on {hostName} yet."
+msgstr "Dit project heeft nog geen mappen op {hostName}."
 
 msgid "This project is no longer available on your devices."
 msgstr "Dit project is niet meer beschikbaar op je apparaten."
@@ -16232,6 +16337,9 @@ msgstr "Gebruiken voor nieuwe agents"
 
 msgid "Use global default"
 msgstr "Globale standaard gebruiken"
+
+msgid "Use letters, digits, dots, dashes or underscores, starting with a letter or digit."
+msgstr "Gebruik letters, cijfers, punten, streepjes of underscores, beginnend met een letter of cijfer."
 
 msgid "Use Superset on mobile"
 msgstr "Gebruik Superset op je mobiel"
