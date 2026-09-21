@@ -1,0 +1,23 @@
+packages/db/drizzle/0120_slack_agent_launches.sql
+  s_0430d5c51b95d7::t_7ab543a5de61df 1-22
+packages/db/drizzle/meta/0120_snapshot.json
+  s_0430d5c51b95d7::t_13bb3942fb1759 1-11198
+packages/db/drizzle/meta/_journal.json
+  s_0430d5c51b95d7::t_f71d9e4f1de1ff 844-850
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "483e238645c9935a701d0651d2ca591bc211114a",
+  "prompts": {},
+  "sessions": {
+    "s_0430d5c51b95d7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "88d283e2-b808-4da0-9123-b5ab9e57c8a6",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "PipeCruz <pipe@akkari.io>"
+    }
+  }
+}
