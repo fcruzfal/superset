@@ -1,0 +1,23 @@
+apps/marketing/src/app/[lang]/components/Footer/Footer.tsx
+  s_c8ccaa5d601e96::t_85857ca30c4f38 23,203-216
+  s_c8ccaa5d601e96::t_3334d05a31874c 217
+packages/shared/src/constants.ts
+  s_c8ccaa5d601e96::t_85857ca30c4f38 43-44
+  s_c8ccaa5d601e96::t_eb76c986103f84 45
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "05226c416f948211a953cacbf007f8a39a910fb9",
+  "prompts": {},
+  "sessions": {
+    "s_c8ccaa5d601e96": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f63e25de-7a28-4b10-be74-a5fe0f0bf106",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "PipeCruz <pipe@akkari.io>"
+    }
+  }
+}
