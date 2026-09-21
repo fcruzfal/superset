@@ -1,0 +1,27 @@
+apps/desktop/docs/TERMINAL_INPUT_MODE_RECLAIM.md
+  s_00d64d64fb9369::t_9dcf07259212e9 50-53
+apps/desktop/src/renderer/lib/terminal/terminalInputModeReclaimer.ts
+  s_00d64d64fb9369::t_cc741ffdcf58c4 90-93
+packages/pty-daemon/src/TerminalModes/TerminalModes.ts
+  s_00d64d64fb9369::t_9b438475e58654 38-43
+apps/desktop/src/renderer/lib/terminal/terminalInputModeReclaimer.test.ts
+  s_00d64d64fb9369::t_5d3ab8ac2c595e 82,84,105-107,123-138
+packages/pty-daemon/src/TerminalModes/TerminalModes.test.ts
+  s_00d64d64fb9369::t_cdc07d5a9ccdcf 169-180
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "f0d5a04c5c703e717320774624568d8fdec1bf36",
+  "prompts": {},
+  "sessions": {
+    "s_00d64d64fb9369": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "275be24f-9b24-499b-9109-112034052c65",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "PipeCruz <pipe@akkari.io>"
+    }
+  }
+}
