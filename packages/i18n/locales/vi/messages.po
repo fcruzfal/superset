@@ -38,6 +38,11 @@ msgstr ".sh"
 msgid "· updated {updatedAgo}"
 msgstr "· cập nhật {updatedAgo}"
 
+#. placeholder {0}: result.folder.name
+#. placeholder {1}: errorMessage(result.error)
+msgid "\"{0}\" could not be added: {1}. The source folders added before it were kept — remove it or fix it and create again."
+msgstr "Không thể thêm “{0}”: {1}. Các thư mục nguồn thêm trước đó vẫn được giữ — hãy xóa thư mục này hoặc khắc phục rồi tạo lại."
+
 #. placeholder {0}: automation.name
 msgid "\"{0}\" deleted"
 msgstr "Đã xóa \"{0}\""
@@ -867,6 +872,9 @@ msgstr "{reason}"
 msgid "{received} of {total}"
 msgstr "{received} trên {total}"
 
+msgid "{repoCount, plural, one {# source folder} other {# source folders}}"
+msgstr "{repoCount, plural, one {# thư mục nguồn} other {# thư mục nguồn}}"
+
 msgid "{retried, plural, one {Retrying # automation} other {Retrying # automations}}"
 msgstr "{retried, plural, one {Đang thử lại # tự động hóa} other {Đang thử lại # tự động hóa}}"
 
@@ -1539,6 +1547,9 @@ msgstr "Thêm test cho phần code rủi ro nhất chưa được test…"
 msgid "Add tests where they're missing"
 msgstr "Thêm test ở những chỗ còn thiếu"
 
+msgid "Add the repositories this project works across as source folders. Every workspace checks out all of them."
+msgstr "Thêm các repository mà dự án này làm việc cùng làm thư mục nguồn. Mọi workspace đều checkout tất cả chúng."
+
 msgid "Add the repositories this project works across. The first one is the primary."
 msgstr "Thêm các repository mà dự án này làm việc cùng. Repository đầu tiên là repository chính."
 
@@ -1554,7 +1565,7 @@ msgstr "Thêm vào workspace"
 msgid "Add your own terminal agent to this device."
 msgstr "Thêm agent terminal của riêng bạn vào thiết bị này."
 
-#. placeholder {0}: result.folder.folder
+#. placeholder {0}: result.folder
 msgid "Added {0} to this project"
 msgstr "Đã thêm {0} vào dự án này"
 
@@ -4258,10 +4269,9 @@ msgstr "Không thể tạo dự án"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "Không thể tạo dự án. Hãy thử tên khác hoặc xem log."
 
-#. placeholder {0}: primary.name
-#. placeholder {1}: errorMessage(error)
-msgid "Could not create the project from \"{0}\": {1}"
-msgstr "Không thể tạo dự án từ “{0}”: {1}"
+#. placeholder {0}: errorMessage(result.error)
+msgid "Could not create the project: {0}"
+msgstr "Không thể tạo dự án: {0}"
 
 msgid "Could not delete account"
 msgstr "Không thể xóa tài khoản"
@@ -7186,9 +7196,6 @@ msgstr "Hành động nhóm"
 
 msgid "Group new branches under a folder."
 msgstr "Gom các nhánh mới vào một thư mục."
-
-msgid "Group several repositories into one project. Every workspace checks out all of them."
-msgstr "Gom nhiều repository vào một dự án. Mọi workspace đều checkout tất cả chúng."
 
 msgid "Growth"
 msgstr "Tăng trưởng"
@@ -15192,11 +15199,6 @@ msgstr "Những người đứng sau Superset."
 
 msgid "The primary folder can't be removed. Make another folder primary first."
 msgstr "Không thể gỡ thư mục chính. Hãy đặt một thư mục khác làm chính trước."
-
-#. placeholder {0}: folder.name
-#. placeholder {1}: errorMessage(error)
-msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
-msgstr "Dự án đã được tạo, nhưng không thể thêm “{0}”: {1}. Các thư mục thêm trước đó vẫn được giữ — hãy xóa thư mục này hoặc khắc phục rồi tạo lại."
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "Checkout của dự án như hiện có: tệp và nhánh được dùng chung"

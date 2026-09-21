@@ -38,6 +38,11 @@ msgstr ".sh"
 msgid "· updated {updatedAgo}"
 msgstr "· обновлено {updatedAgo}"
 
+#. placeholder {0}: result.folder.name
+#. placeholder {1}: errorMessage(result.error)
+msgid "\"{0}\" could not be added: {1}. The source folders added before it were kept — remove it or fix it and create again."
+msgstr "Не удалось добавить «{0}»: {1}. Добавленные ранее исходные папки сохранены — удалите эту папку или устраните проблему и создайте проект снова."
+
 #. placeholder {0}: automation.name
 msgid "\"{0}\" deleted"
 msgstr "«{0}» удалена"
@@ -867,6 +872,9 @@ msgstr "{reason}"
 msgid "{received} of {total}"
 msgstr "{received} из {total}"
 
+msgid "{repoCount, plural, one {# source folder} other {# source folders}}"
+msgstr "{repoCount, plural, one {# исходная папка} few {# исходные папки} many {# исходных папок} other {# исходной папки}}"
+
 msgid "{retried, plural, one {Retrying # automation} other {Retrying # automations}}"
 msgstr "{retried, plural, one {Повторяем # автоматизацию} few {Повторяем # автоматизации} many {Повторяем # автоматизаций} other {Повторяем # автоматизации}}"
 
@@ -1539,6 +1547,9 @@ msgstr "Добавь тесты для самого рискованного н�
 msgid "Add tests where they're missing"
 msgstr "Добавить тесты там, где их нет"
 
+msgid "Add the repositories this project works across as source folders. Every workspace checks out all of them."
+msgstr "Добавьте репозитории, с которыми работает этот проект, как исходные папки. В каждую рабочую область извлекаются все они."
+
 msgid "Add the repositories this project works across. The first one is the primary."
 msgstr "Добавьте репозитории, с которыми работает этот проект. Первый из них будет основным."
 
@@ -1554,7 +1565,7 @@ msgstr "Добавить в рабочую область"
 msgid "Add your own terminal agent to this device."
 msgstr "Добавьте своего терминального агента на это устройство."
 
-#. placeholder {0}: result.folder.folder
+#. placeholder {0}: result.folder
 msgid "Added {0} to this project"
 msgstr "{0} добавлен в этот проект"
 
@@ -4258,10 +4269,9 @@ msgstr "Не удалось создать проект"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "Не удалось создать проект. Попробуйте другое название или посмотрите логи."
 
-#. placeholder {0}: primary.name
-#. placeholder {1}: errorMessage(error)
-msgid "Could not create the project from \"{0}\": {1}"
-msgstr "Не удалось создать проект из «{0}»: {1}"
+#. placeholder {0}: errorMessage(result.error)
+msgid "Could not create the project: {0}"
+msgstr "Не удалось создать проект: {0}"
 
 msgid "Could not delete account"
 msgstr "Не удалось удалить аккаунт"
@@ -7186,9 +7196,6 @@ msgstr "Действия с группой"
 
 msgid "Group new branches under a folder."
 msgstr "Группировать новые ветки в папке."
-
-msgid "Group several repositories into one project. Every workspace checks out all of them."
-msgstr "Объедините несколько репозиториев в один проект. В каждую рабочую область извлекаются все они."
 
 msgid "Growth"
 msgstr "Рост"
@@ -15192,11 +15199,6 @@ msgstr "Люди, которые делают Superset."
 
 msgid "The primary folder can't be removed. Make another folder primary first."
 msgstr "Основную папку нельзя удалить. Сначала сделайте основной другую папку."
-
-#. placeholder {0}: folder.name
-#. placeholder {1}: errorMessage(error)
-msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
-msgstr "Проект создан, но не удалось добавить «{0}»: {1}. Добавленные ранее папки сохранены — удалите эту папку или устраните проблему и создайте проект снова."
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "Checkout проекта как есть: файлы и ветка общие"

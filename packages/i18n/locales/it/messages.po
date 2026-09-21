@@ -38,6 +38,11 @@ msgstr ".sh"
 msgid "· updated {updatedAgo}"
 msgstr "· aggiornata {updatedAgo}"
 
+#. placeholder {0}: result.folder.name
+#. placeholder {1}: errorMessage(result.error)
+msgid "\"{0}\" could not be added: {1}. The source folders added before it were kept — remove it or fix it and create again."
+msgstr "Non è stato possibile aggiungere “{0}”: {1}. Le cartelle sorgente aggiunte prima sono state mantenute — rimuovila o correggila e riprova a creare il progetto."
+
 #. placeholder {0}: automation.name
 msgid "\"{0}\" deleted"
 msgstr "\"{0}\" eliminata"
@@ -867,6 +872,9 @@ msgstr "{reason}"
 msgid "{received} of {total}"
 msgstr "{received} di {total}"
 
+msgid "{repoCount, plural, one {# source folder} other {# source folders}}"
+msgstr "{repoCount, plural, one {# cartella sorgente} other {# cartelle sorgente}}"
+
 msgid "{retried, plural, one {Retrying # automation} other {Retrying # automations}}"
 msgstr "{retried, plural, one {Nuovo tentativo per # automazione} other {Nuovo tentativo per # automazioni}}"
 
@@ -1539,6 +1547,9 @@ msgstr "Aggiungi test per il codice non testato più a rischio…"
 msgid "Add tests where they're missing"
 msgstr "Aggiungi i test che mancano"
 
+msgid "Add the repositories this project works across as source folders. Every workspace checks out all of them."
+msgstr "Aggiungi come cartelle sorgente i repository su cui lavora questo progetto. Ogni workspace ne effettua il checkout di tutti."
+
 msgid "Add the repositories this project works across. The first one is the primary."
 msgstr "Aggiungi i repository su cui lavora questo progetto. Il primo è quello principale."
 
@@ -1554,7 +1565,7 @@ msgstr "Aggiungi al workspace"
 msgid "Add your own terminal agent to this device."
 msgstr "Aggiungi un tuo agente da terminale a questo dispositivo."
 
-#. placeholder {0}: result.folder.folder
+#. placeholder {0}: result.folder
 msgid "Added {0} to this project"
 msgstr "{0} è stato aggiunto a questo progetto"
 
@@ -4258,10 +4269,9 @@ msgstr "Impossibile creare il progetto"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "Impossibile creare il progetto. Prova con un altro nome o controlla i log."
 
-#. placeholder {0}: primary.name
-#. placeholder {1}: errorMessage(error)
-msgid "Could not create the project from \"{0}\": {1}"
-msgstr "Impossibile creare il progetto da “{0}”: {1}"
+#. placeholder {0}: errorMessage(result.error)
+msgid "Could not create the project: {0}"
+msgstr "Impossibile creare il progetto: {0}"
 
 msgid "Could not delete account"
 msgstr "Impossibile eliminare l'account"
@@ -7186,9 +7196,6 @@ msgstr "Azioni del gruppo"
 
 msgid "Group new branches under a folder."
 msgstr "Raggruppa i nuovi branch sotto una cartella."
-
-msgid "Group several repositories into one project. Every workspace checks out all of them."
-msgstr "Raggruppa più repository in un solo progetto. Ogni workspace ne effettua il checkout di tutti."
 
 msgid "Growth"
 msgstr "Crescita"
@@ -15192,11 +15199,6 @@ msgstr "Le persone dietro Superset."
 
 msgid "The primary folder can't be removed. Make another folder primary first."
 msgstr "La cartella principale non può essere rimossa. Imposta prima un'altra cartella come principale."
-
-#. placeholder {0}: folder.name
-#. placeholder {1}: errorMessage(error)
-msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
-msgstr "Il progetto è stato creato, ma non è stato possibile aggiungere “{0}”: {1}. Le cartelle aggiunte prima sono state mantenute — rimuovila o correggila e riprova a creare il progetto."
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "Il checkout del progetto così com'è: file e branch sono condivisi"

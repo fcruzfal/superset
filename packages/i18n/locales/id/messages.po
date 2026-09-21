@@ -38,6 +38,11 @@ msgstr ".sh"
 msgid "· updated {updatedAgo}"
 msgstr "· diperbarui {updatedAgo}"
 
+#. placeholder {0}: result.folder.name
+#. placeholder {1}: errorMessage(result.error)
+msgid "\"{0}\" could not be added: {1}. The source folders added before it were kept — remove it or fix it and create again."
+msgstr "“{0}” tidak dapat ditambahkan: {1}. Folder sumber yang ditambahkan sebelumnya tetap ada — hapus folder itu atau perbaiki, lalu buat lagi."
+
 #. placeholder {0}: automation.name
 msgid "\"{0}\" deleted"
 msgstr "\"{0}\" dihapus"
@@ -867,6 +872,9 @@ msgstr "{reason}"
 msgid "{received} of {total}"
 msgstr "{received} dari {total}"
 
+msgid "{repoCount, plural, one {# source folder} other {# source folders}}"
+msgstr "{repoCount, plural, one {# folder sumber} other {# folder sumber}}"
+
 msgid "{retried, plural, one {Retrying # automation} other {Retrying # automations}}"
 msgstr "{retried, plural, one {Mencoba ulang # otomatisasi} other {Mencoba ulang # otomatisasi}}"
 
@@ -1539,6 +1547,9 @@ msgstr "Tambahkan tes untuk kode paling berisiko yang belum diuji…"
 msgid "Add tests where they're missing"
 msgstr "Tambahkan tes yang belum ada"
 
+msgid "Add the repositories this project works across as source folders. Every workspace checks out all of them."
+msgstr "Tambahkan repositori yang dipakai proyek ini sebagai folder sumber. Setiap workspace melakukan checkout semuanya."
+
 msgid "Add the repositories this project works across. The first one is the primary."
 msgstr "Tambahkan repositori yang dipakai proyek ini. Yang pertama menjadi yang utama."
 
@@ -1554,7 +1565,7 @@ msgstr "Tambahkan ke workspace"
 msgid "Add your own terminal agent to this device."
 msgstr "Tambahkan agen terminal Anda sendiri ke perangkat ini."
 
-#. placeholder {0}: result.folder.folder
+#. placeholder {0}: result.folder
 msgid "Added {0} to this project"
 msgstr "{0} ditambahkan ke proyek ini"
 
@@ -4258,10 +4269,9 @@ msgstr "Tidak bisa membuat proyek"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "Tidak bisa membuat proyek. Coba nama lain atau periksa log."
 
-#. placeholder {0}: primary.name
-#. placeholder {1}: errorMessage(error)
-msgid "Could not create the project from \"{0}\": {1}"
-msgstr "Tidak dapat membuat proyek dari “{0}”: {1}"
+#. placeholder {0}: errorMessage(result.error)
+msgid "Could not create the project: {0}"
+msgstr "Tidak dapat membuat proyek: {0}"
 
 msgid "Could not delete account"
 msgstr "Tidak bisa menghapus akun"
@@ -7186,9 +7196,6 @@ msgstr "Aksi grup"
 
 msgid "Group new branches under a folder."
 msgstr "Kelompokkan branch baru di bawah satu folder."
-
-msgid "Group several repositories into one project. Every workspace checks out all of them."
-msgstr "Gabungkan beberapa repositori menjadi satu proyek. Setiap workspace melakukan checkout semuanya."
 
 msgid "Growth"
 msgstr "Pertumbuhan"
@@ -15192,11 +15199,6 @@ msgstr "Orang-orang di balik Superset."
 
 msgid "The primary folder can't be removed. Make another folder primary first."
 msgstr "Folder utama tidak dapat dihapus. Jadikan folder lain sebagai utama terlebih dahulu."
-
-#. placeholder {0}: folder.name
-#. placeholder {1}: errorMessage(error)
-msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
-msgstr "Proyek dibuat, tetapi “{0}” tidak dapat ditambahkan: {1}. Folder yang ditambahkan sebelumnya tetap ada — hapus folder itu atau perbaiki, lalu buat lagi."
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "Checkout proyek apa adanya: file dan branch dibagikan"

@@ -38,6 +38,11 @@ msgstr ".sh"
 msgid "· updated {updatedAgo}"
 msgstr "· 更新于{updatedAgo}"
 
+#. placeholder {0}: result.folder.name
+#. placeholder {1}: errorMessage(result.error)
+msgid "\"{0}\" could not be added: {1}. The source folders added before it were kept — remove it or fix it and create again."
+msgstr "无法添加“{0}”：{1}。此前已添加的源文件夹会保留——请移除该文件夹或修复问题后重新创建。"
+
 #. placeholder {0}: automation.name
 msgid "\"{0}\" deleted"
 msgstr "“{0}”已删除"
@@ -867,6 +872,9 @@ msgstr "{reason}"
 msgid "{received} of {total}"
 msgstr "{received}/{total}"
 
+msgid "{repoCount, plural, one {# source folder} other {# source folders}}"
+msgstr "{repoCount, plural, one {#个源文件夹} other {#个源文件夹}}"
+
 msgid "{retried, plural, one {Retrying # automation} other {Retrying # automations}}"
 msgstr "{retried, plural, one {正在重试#个自动化} other {正在重试#个自动化}}"
 
@@ -1539,6 +1547,9 @@ msgstr "给风险最高又没测试的代码补上测试…"
 msgid "Add tests where they're missing"
 msgstr "给缺测试的地方补测试"
 
+msgid "Add the repositories this project works across as source folders. Every workspace checks out all of them."
+msgstr "把此项目需要用到的仓库添加为源文件夹。每个工作区都会检出全部仓库。"
+
 msgid "Add the repositories this project works across. The first one is the primary."
 msgstr "添加此项目需要用到的仓库。第一个是主文件夹。"
 
@@ -1554,7 +1565,7 @@ msgstr "添加到工作区"
 msgid "Add your own terminal agent to this device."
 msgstr "向此设备添加你自己的终端智能体。"
 
-#. placeholder {0}: result.folder.folder
+#. placeholder {0}: result.folder
 msgid "Added {0} to this project"
 msgstr "已将 {0} 添加到此项目"
 
@@ -4258,10 +4269,9 @@ msgstr "无法创建项目"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "无法创建项目。请换一个名称，或查看日志。"
 
-#. placeholder {0}: primary.name
-#. placeholder {1}: errorMessage(error)
-msgid "Could not create the project from \"{0}\": {1}"
-msgstr "无法从“{0}”创建项目：{1}"
+#. placeholder {0}: errorMessage(result.error)
+msgid "Could not create the project: {0}"
+msgstr "无法创建项目：{0}"
 
 msgid "Could not delete account"
 msgstr "无法删除账户"
@@ -7186,9 +7196,6 @@ msgstr "分组操作"
 
 msgid "Group new branches under a folder."
 msgstr "将新分支归入一个文件夹。"
-
-msgid "Group several repositories into one project. Every workspace checks out all of them."
-msgstr "把多个仓库归到一个项目中。每个工作区都会检出全部仓库。"
 
 msgid "Growth"
 msgstr "增长"
@@ -15192,11 +15199,6 @@ msgstr "Superset背后的团队。"
 
 msgid "The primary folder can't be removed. Make another folder primary first."
 msgstr "无法移除主文件夹。请先将另一个文件夹设为主文件夹。"
-
-#. placeholder {0}: folder.name
-#. placeholder {1}: errorMessage(error)
-msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
-msgstr "项目已创建，但无法添加“{0}”：{1}。此前已添加的文件夹会保留——请移除该文件夹或修复问题后重新创建。"
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "按原样使用项目的检出: 文件和分支是共享的"

@@ -38,6 +38,11 @@ msgstr ".sh"
 msgid "· updated {updatedAgo}"
 msgstr "· aktualizováno {updatedAgo}"
 
+#. placeholder {0}: result.folder.name
+#. placeholder {1}: errorMessage(result.error)
+msgid "\"{0}\" could not be added: {1}. The source folders added before it were kept — remove it or fix it and create again."
+msgstr "„{0}“ se nepodařilo přidat: {1}. Dříve přidané zdrojové složky byly zachovány — odeberte ji nebo problém opravte a vytvořte projekt znovu."
+
 #. placeholder {0}: automation.name
 msgid "\"{0}\" deleted"
 msgstr "„{0}“ smazáno"
@@ -867,6 +872,9 @@ msgstr "{reason}"
 msgid "{received} of {total}"
 msgstr "{received} z {total}"
 
+msgid "{repoCount, plural, one {# source folder} other {# source folders}}"
+msgstr "{repoCount, plural, one {# zdrojová složka} few {# zdrojové složky} many {# zdrojové složky} other {# zdrojových složek}}"
+
 msgid "{retried, plural, one {Retrying # automation} other {Retrying # automations}}"
 msgstr "{retried, plural, one {Opakuji # automatizaci} few {Opakuji # automatizace} many {Opakuji # automatizace} other {Opakuji # automatizací}}"
 
@@ -1539,6 +1547,9 @@ msgstr "Doplň testy pro nejrizikovější netestovaný kód…"
 msgid "Add tests where they're missing"
 msgstr "Doplnit testy tam, kde chybí"
 
+msgid "Add the repositories this project works across as source folders. Every workspace checks out all of them."
+msgstr "Přidejte repozitáře, se kterými tento projekt pracuje, jako zdrojové složky. Každý pracovní prostor načte všechny."
+
 msgid "Add the repositories this project works across. The first one is the primary."
 msgstr "Přidejte repozitáře, se kterými tento projekt pracuje. První z nich je hlavní."
 
@@ -1554,7 +1565,7 @@ msgstr "Přidat do pracovního prostoru"
 msgid "Add your own terminal agent to this device."
 msgstr "Přidejte na toto zařízení vlastního terminálového agenta."
 
-#. placeholder {0}: result.folder.folder
+#. placeholder {0}: result.folder
 msgid "Added {0} to this project"
 msgstr "{0} byl přidán do tohoto projektu"
 
@@ -4258,10 +4269,9 @@ msgstr "Projekt se nepodařilo vytvořit"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "Projekt se nepodařilo vytvořit. Zkuste jiný název nebo se podívejte do logů."
 
-#. placeholder {0}: primary.name
-#. placeholder {1}: errorMessage(error)
-msgid "Could not create the project from \"{0}\": {1}"
-msgstr "Projekt se nepodařilo vytvořit z „{0}“: {1}"
+#. placeholder {0}: errorMessage(result.error)
+msgid "Could not create the project: {0}"
+msgstr "Projekt se nepodařilo vytvořit: {0}"
 
 msgid "Could not delete account"
 msgstr "Účet se nepodařilo smazat"
@@ -7186,9 +7196,6 @@ msgstr "Akce skupiny"
 
 msgid "Group new branches under a folder."
 msgstr "Seskupit nové větve pod složku."
-
-msgid "Group several repositories into one project. Every workspace checks out all of them."
-msgstr "Seskupte několik repozitářů do jednoho projektu. Každý pracovní prostor načte všechny."
 
 msgid "Growth"
 msgstr "Růst"
@@ -15192,11 +15199,6 @@ msgstr "Lidé za Supersetem."
 
 msgid "The primary folder can't be removed. Make another folder primary first."
 msgstr "Hlavní složku nelze odebrat. Nejprve nastavte jako hlavní jinou složku."
-
-#. placeholder {0}: folder.name
-#. placeholder {1}: errorMessage(error)
-msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
-msgstr "Projekt byl vytvořen, ale „{0}“ se nepodařilo přidat: {1}. Dříve přidané složky byly zachovány — odeberte ji nebo problém opravte a vytvořte projekt znovu."
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "Checkout projektu tak, jak je: soubory a větev jsou sdílené"

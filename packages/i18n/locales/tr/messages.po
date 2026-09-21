@@ -38,6 +38,11 @@ msgstr ".sh"
 msgid "· updated {updatedAgo}"
 msgstr "· güncelleme {updatedAgo}"
 
+#. placeholder {0}: result.folder.name
+#. placeholder {1}: errorMessage(result.error)
+msgid "\"{0}\" could not be added: {1}. The source folders added before it were kept — remove it or fix it and create again."
+msgstr "“{0}” eklenemedi: {1}. Daha önce eklenen kaynak klasörler korundu — bu klasörü kaldırın ya da sorunu giderip yeniden oluşturun."
+
 #. placeholder {0}: automation.name
 msgid "\"{0}\" deleted"
 msgstr "\"{0}\" silindi"
@@ -867,6 +872,9 @@ msgstr "{reason}"
 msgid "{received} of {total}"
 msgstr "{total} içinden {received}"
 
+msgid "{repoCount, plural, one {# source folder} other {# source folders}}"
+msgstr "{repoCount, plural, one {# kaynak klasör} other {# kaynak klasör}}"
+
 msgid "{retried, plural, one {Retrying # automation} other {Retrying # automations}}"
 msgstr "{retried, plural, one {# otomasyon yeniden deneniyor} other {# otomasyon yeniden deneniyor}}"
 
@@ -1539,6 +1547,9 @@ msgstr "Test edilmemiş en riskli kod için test ekle…"
 msgid "Add tests where they're missing"
 msgstr "Eksik olan yerlere test ekle"
 
+msgid "Add the repositories this project works across as source folders. Every workspace checks out all of them."
+msgstr "Bu projenin birlikte çalıştığı depoları kaynak klasör olarak ekleyin. Her çalışma alanına hepsi çıkarılır."
+
 msgid "Add the repositories this project works across. The first one is the primary."
 msgstr "Bu projenin birlikte çalıştığı depoları ekleyin. İlki birincil olur."
 
@@ -1554,7 +1565,7 @@ msgstr "Çalışma alanına ekle"
 msgid "Add your own terminal agent to this device."
 msgstr "Bu cihaza kendi terminal ajanınızı ekleyin."
 
-#. placeholder {0}: result.folder.folder
+#. placeholder {0}: result.folder
 msgid "Added {0} to this project"
 msgstr "{0} bu projeye eklendi"
 
@@ -4258,10 +4269,9 @@ msgstr "Proje oluşturulamadı"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "Proje oluşturulamadı. Lütfen farklı bir ad deneyin veya günlükleri kontrol edin."
 
-#. placeholder {0}: primary.name
-#. placeholder {1}: errorMessage(error)
-msgid "Could not create the project from \"{0}\": {1}"
-msgstr "Proje “{0}” klasöründen oluşturulamadı: {1}"
+#. placeholder {0}: errorMessage(result.error)
+msgid "Could not create the project: {0}"
+msgstr "Proje oluşturulamadı: {0}"
 
 msgid "Could not delete account"
 msgstr "Hesap silinemedi"
@@ -7186,9 +7196,6 @@ msgstr "Grup eylemleri"
 
 msgid "Group new branches under a folder."
 msgstr "Yeni dalları bir klasör altında toplayın."
-
-msgid "Group several repositories into one project. Every workspace checks out all of them."
-msgstr "Birden çok depoyu tek bir projede toplayın. Her çalışma alanına hepsi çıkarılır."
 
 msgid "Growth"
 msgstr "Büyüme"
@@ -15192,11 +15199,6 @@ msgstr "Superset'in arkasındaki insanlar."
 
 msgid "The primary folder can't be removed. Make another folder primary first."
 msgstr "Birincil klasör kaldırılamaz. Önce başka bir klasörü birincil yapın."
-
-#. placeholder {0}: folder.name
-#. placeholder {1}: errorMessage(error)
-msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
-msgstr "Proje oluşturuldu ancak “{0}” eklenemedi: {1}. Daha önce eklenen klasörler korundu — bu klasörü kaldırın ya da sorunu giderip yeniden oluşturun."
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "Projenin checkout'u olduğu gibi: dosyalar ve dal paylaşılır"

@@ -38,6 +38,11 @@ msgstr ".sh"
 msgid "· updated {updatedAgo}"
 msgstr "· bijgewerkt {updatedAgo}"
 
+#. placeholder {0}: result.folder.name
+#. placeholder {1}: errorMessage(result.error)
+msgid "\"{0}\" could not be added: {1}. The source folders added before it were kept — remove it or fix it and create again."
+msgstr "“{0}” kon niet worden toegevoegd: {1}. De eerder toegevoegde bronmappen zijn behouden — verwijder deze map of los het probleem op en maak het project opnieuw aan."
+
 #. placeholder {0}: automation.name
 msgid "\"{0}\" deleted"
 msgstr "\"{0}\" verwijderd"
@@ -867,6 +872,9 @@ msgstr "{reason}"
 msgid "{received} of {total}"
 msgstr "{received} van {total}"
 
+msgid "{repoCount, plural, one {# source folder} other {# source folders}}"
+msgstr "{repoCount, plural, one {# bronmap} other {# bronmappen}}"
+
 msgid "{retried, plural, one {Retrying # automation} other {Retrying # automations}}"
 msgstr "{retried, plural, one {# automatisering opnieuw uitvoeren} other {# automatiseringen opnieuw uitvoeren}}"
 
@@ -1539,6 +1547,9 @@ msgstr "Voeg tests toe voor de riskantste ongeteste code…"
 msgid "Add tests where they're missing"
 msgstr "Tests toevoegen waar ze ontbreken"
 
+msgid "Add the repositories this project works across as source folders. Every workspace checks out all of them."
+msgstr "Voeg de repository's waarmee dit project werkt toe als bronmappen. Elke werkruimte checkt ze allemaal uit."
+
 msgid "Add the repositories this project works across. The first one is the primary."
 msgstr "Voeg de repository's toe waarmee dit project werkt. De eerste is de primaire."
 
@@ -1554,7 +1565,7 @@ msgstr "Toevoegen aan werkruimte"
 msgid "Add your own terminal agent to this device."
 msgstr "Voeg je eigen terminalagent toe aan dit apparaat."
 
-#. placeholder {0}: result.folder.folder
+#. placeholder {0}: result.folder
 msgid "Added {0} to this project"
 msgstr "{0} is aan dit project toegevoegd"
 
@@ -4258,10 +4269,9 @@ msgstr "Kan project niet aanmaken"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "Kan project niet aanmaken. Probeer een andere naam of bekijk de logs."
 
-#. placeholder {0}: primary.name
-#. placeholder {1}: errorMessage(error)
-msgid "Could not create the project from \"{0}\": {1}"
-msgstr "Kon het project niet maken op basis van “{0}”: {1}"
+#. placeholder {0}: errorMessage(result.error)
+msgid "Could not create the project: {0}"
+msgstr "Kon het project niet maken: {0}"
 
 msgid "Could not delete account"
 msgstr "Kan account niet verwijderen"
@@ -7186,9 +7196,6 @@ msgstr "Groepsacties"
 
 msgid "Group new branches under a folder."
 msgstr "Groepeer nieuwe branches onder een map."
-
-msgid "Group several repositories into one project. Every workspace checks out all of them."
-msgstr "Groepeer meerdere repository's in één project. Elke werkruimte checkt ze allemaal uit."
 
 msgid "Growth"
 msgstr "Groei"
@@ -15192,11 +15199,6 @@ msgstr "De mensen achter Superset."
 
 msgid "The primary folder can't be removed. Make another folder primary first."
 msgstr "De primaire map kan niet worden verwijderd. Stel eerst een andere map als primair in."
-
-#. placeholder {0}: folder.name
-#. placeholder {1}: errorMessage(error)
-msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
-msgstr "Het project is gemaakt, maar “{0}” kon niet worden toegevoegd: {1}. De eerder toegevoegde mappen zijn behouden — verwijder deze map of los het probleem op en maak het project opnieuw aan."
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "De checkout van het project zoals die is: bestanden en branch worden gedeeld"

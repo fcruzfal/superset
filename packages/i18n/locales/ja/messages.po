@@ -38,6 +38,11 @@ msgstr ".sh"
 msgid "· updated {updatedAgo}"
 msgstr "· {updatedAgo}に更新"
 
+#. placeholder {0}: result.folder.name
+#. placeholder {1}: errorMessage(result.error)
+msgid "\"{0}\" could not be added: {1}. The source folders added before it were kept — remove it or fix it and create again."
+msgstr "「{0}」を追加できませんでした: {1}。それより前に追加されたソースフォルダは保持されています — このフォルダを削除するか問題を解決して、もう一度作成してください。"
+
 #. placeholder {0}: automation.name
 msgid "\"{0}\" deleted"
 msgstr "「{0}」を削除しました"
@@ -867,6 +872,9 @@ msgstr "{reason}"
 msgid "{received} of {total}"
 msgstr "{received}/{total}"
 
+msgid "{repoCount, plural, one {# source folder} other {# source folders}}"
+msgstr "{repoCount, plural, one {ソースフォルダ #件} other {ソースフォルダ #件}}"
+
 msgid "{retried, plural, one {Retrying # automation} other {Retrying # automations}}"
 msgstr "{retried, plural, one {#件のオートメーションを再試行中} other {#件のオートメーションを再試行中}}"
 
@@ -1539,6 +1547,9 @@ msgstr "テストのない危険なコードにテストを追加…"
 msgid "Add tests where they're missing"
 msgstr "テストが不足している箇所に追加"
 
+msgid "Add the repositories this project works across as source folders. Every workspace checks out all of them."
+msgstr "このプロジェクトが扱うリポジトリをソースフォルダとして追加します。すべてのワークスペースにそのすべてがチェックアウトされます。"
+
 msgid "Add the repositories this project works across. The first one is the primary."
 msgstr "このプロジェクトが扱うリポジトリを追加します。最初のものがプライマリになります。"
 
@@ -1554,7 +1565,7 @@ msgstr "ワークスペースに追加"
 msgid "Add your own terminal agent to this device."
 msgstr "このデバイスに独自のターミナルエージェントを追加します。"
 
-#. placeholder {0}: result.folder.folder
+#. placeholder {0}: result.folder
 msgid "Added {0} to this project"
 msgstr "{0} をこのプロジェクトに追加しました"
 
@@ -4258,10 +4269,9 @@ msgstr "プロジェクトを作成できませんでした"
 msgid "Could not create project. Please try a different name or check the logs."
 msgstr "プロジェクトを作成できませんでした。別の名前を試すか、ログを確認してください。"
 
-#. placeholder {0}: primary.name
-#. placeholder {1}: errorMessage(error)
-msgid "Could not create the project from \"{0}\": {1}"
-msgstr "「{0}」からプロジェクトを作成できませんでした: {1}"
+#. placeholder {0}: errorMessage(result.error)
+msgid "Could not create the project: {0}"
+msgstr "プロジェクトを作成できませんでした: {0}"
 
 msgid "Could not delete account"
 msgstr "アカウントを削除できませんでした"
@@ -7186,9 +7196,6 @@ msgstr "グループの操作"
 
 msgid "Group new branches under a folder."
 msgstr "新しいブランチをフォルダにまとめます。"
-
-msgid "Group several repositories into one project. Every workspace checks out all of them."
-msgstr "複数のリポジトリを 1 つのプロジェクトにまとめます。すべてのワークスペースにそのすべてがチェックアウトされます。"
 
 msgid "Growth"
 msgstr "グロース"
@@ -15192,11 +15199,6 @@ msgstr "Supersetを作っている人たち。"
 
 msgid "The primary folder can't be removed. Make another folder primary first."
 msgstr "プライマリフォルダは削除できません。先に別のフォルダをプライマリにしてください。"
-
-#. placeholder {0}: folder.name
-#. placeholder {1}: errorMessage(error)
-msgid "The project was created, but \"{0}\" could not be added: {1}. The folders added before it were kept — remove it or fix it and create again."
-msgstr "プロジェクトは作成されましたが、「{0}」を追加できませんでした: {1}。それより前に追加されたフォルダは保持されています — このフォルダを削除するか問題を解決して、もう一度作成してください。"
 
 msgid "The project's checkout as it is: files and branch are shared"
 msgstr "プロジェクトのチェックアウトをそのまま使用: ファイルとブランチは共有されます"
