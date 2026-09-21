@@ -1,0 +1,111 @@
+apps/desktop/src/renderer/routes/_authenticated/_dashboard/v2-workspace/$workspaceId/hooks/usePaneRegistry/components/ChatV3Pane/components/Transcript/components/TurnGroupSection/TurnGroupSection.tsx
+  s_df8e0a1996c9a8::t_955f741a1170e7 3-9,21,32,41-56,60,64,73-75,77-82,84-86,88-93,99-101,103-108,122,139
+  s_df8e0a1996c9a8::t_bf77fa11166016 76,87,102
+apps/desktop/src/renderer/routes/_authenticated/_dashboard/v2-workspace/$workspaceId/hooks/usePaneRegistry/components/ChatV3Pane/stores/chatPinsStore/chatPinsStore.test.ts
+  s_df8e0a1996c9a8::t_b00ab7adcc971e 1-11,13-57,61-65
+  s_df8e0a1996c9a8::t_bf77fa11166016 12,58-60
+packages/i18n/locales/de/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_65c2363f421b0b 11130,16067
+apps/desktop/src/renderer/routes/_authenticated/_dashboard/v2-workspace/$workspaceId/hooks/usePaneRegistry/components/ChatV3Pane/stores/chatPinsStore/index.ts
+  s_df8e0a1996c9a8::t_b00ab7adcc971e 1-9
+packages/i18n/locales/zh-TW/messages.po
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_e1a3806ba99b0b 11130,16067
+packages/i18n/locales/ja/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_35f8db5cea3047 11130,16067
+packages/i18n/locales/it/messages.po
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_f9781e624e7b2e 11130,16067
+packages/i18n/locales/nl/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_8af6a4f84c7836 11130,16067
+packages/i18n/locales/pl/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_2a2719b3e465e1 11130,16067
+packages/i18n/locales/fr/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_515c1941299ed5 11130,16067
+apps/desktop/src/renderer/lib/persisted-keys/persisted-key-registry.test-data.ts
+  s_df8e0a1996c9a8::t_955f741a1170e7 64-67
+packages/i18n/locales/en/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005-8007,11128-11130,11140-11142,16065-16066
+  s_df8e0a1996c9a8::t_a9f29bba411b8d 16067
+packages/i18n/locales/es/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_5fa88f956578ea 11130,16067
+packages/i18n/locales/ru/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_c3cad9bed8d37b 11130,16067
+apps/desktop/src/renderer/routes/_authenticated/_dashboard/v2-workspace/$workspaceId/hooks/usePaneRegistry/components/ChatV3Pane/components/Transcript/components/PinnableRow/index.ts
+  s_df8e0a1996c9a8::t_b00ab7adcc971e 1
+apps/desktop/src/renderer/routes/_authenticated/_dashboard/v2-workspace/$workspaceId/hooks/usePaneRegistry/components/ChatV3Pane/stores/chatPinsStore/chatPinsStore.ts
+  s_df8e0a1996c9a8::t_bf77fa11166016 8
+  s_df8e0a1996c9a8::t_b00ab7adcc971e 1-7,9-104
+apps/desktop/src/renderer/routes/_authenticated/_dashboard/v2-workspace/$workspaceId/hooks/usePaneRegistry/components/ChatV3Pane/components/SessionView/SessionView.tsx
+  s_df8e0a1996c9a8::t_955f741a1170e7 10,12,42-48,57,63,80
+packages/i18n/locales/vi/messages.po
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_75c8d78f488829 11130,16067
+packages/i18n/locales/zh-CN/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_4b9d803bf1b183 11130,16067
+packages/i18n/locales/id/messages.po
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_6a90569a4fb55f 11130,16067
+apps/desktop/src/renderer/routes/_authenticated/_dashboard/v2-workspace/$workspaceId/hooks/usePaneRegistry/components/ChatV3Pane/components/PinnedPanel/index.ts
+  s_df8e0a1996c9a8::t_b00ab7adcc971e 1
+packages/i18n/locales/tr/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_c50e1eab075768 11130,16067
+packages/i18n/locales/ko/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_edea6e006b8edc 11130,16067
+apps/desktop/src/renderer/routes/_authenticated/_dashboard/v2-workspace/$workspaceId/hooks/usePaneRegistry/components/ChatV3Pane/components/PinnedPanel/PinnedPanel.tsx
+  s_df8e0a1996c9a8::t_bf77fa11166016 68
+  s_df8e0a1996c9a8::t_b00ab7adcc971e 1-67,69-80
+apps/desktop/src/renderer/routes/_authenticated/_dashboard/v2-workspace/$workspaceId/hooks/usePaneRegistry/components/ChatV3Pane/components/Transcript/components/PinnableRow/PinnableRow.tsx
+  s_df8e0a1996c9a8::t_b00ab7adcc971e 1-11,13-17,19-39,41-42,44-47,53-56
+  s_df8e0a1996c9a8::t_bf77fa11166016 12,18,40,43,48-52
+packages/i18n/locales/cs/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_41f469973cbb3a 11130,16067
+apps/desktop/src/renderer/routes/_authenticated/_dashboard/v2-workspace/$workspaceId/hooks/usePaneRegistry/components/ChatV3Pane/components/Transcript/Transcript.tsx
+  s_df8e0a1996c9a8::t_955f741a1170e7 14,56,144
+packages/i18n/locales/pt-BR/messages.po
+  s_df8e0a1996c9a8::t_5beb7be99f4a09 8005,8007,11128,11140,11142,16065
+  s_df8e0a1996c9a8::t_ef8211d54a9f62 8006,11129,11141,16066
+  s_df8e0a1996c9a8::t_6b8c04baf44c42 11130,16067
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "b22bc4c86c08ff1770bedbaa9c3a038e7527a031",
+  "prompts": {},
+  "sessions": {
+    "s_df8e0a1996c9a8": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "46ab80c9-2d9a-40f4-9376-c544885696ee",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "PipeCruz <pipe@akkari.io>"
+    }
+  }
+}
