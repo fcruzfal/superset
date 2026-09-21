@@ -5022,6 +5022,9 @@ msgstr "刪除「{title}」？"
 msgid "Delete {0}?"
 msgstr "刪除{0}？"
 
+msgid "Delete {groupName}?"
+msgstr "刪除 {groupName}？"
+
 msgid "Delete {name}?"
 msgstr "刪除{name}？"
 
@@ -5653,6 +5656,9 @@ msgstr "每個代理程式都跑在自己隔離的Git worktree裡。沒有合併
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "每個附件最大為{0} MB。"
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "每個資料夾會依此順序執行各自的初始化、清理與執行命令。"
 
 msgid "Each in its own new tab"
 msgstr "每條各佔一個新分頁"
@@ -7965,6 +7971,9 @@ msgstr "條目"
 msgid "Its own branch and copy of the files"
 msgstr "獨立的分支和檔案副本"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "它的來源資料夾會各自成為獨立的專案，保留在此裝置上。"
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "在它重啟之前，其工作區和終端都不可用，請使用Superset托盤選單 > 主機服務 > 重啟。"
 
@@ -9338,6 +9347,9 @@ msgstr "新增工作區建立者"
 
 msgid "New workspace in {name}"
 msgstr "在 {name} 中新建工作區"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "新工作區將不再把它的資料夾一起簽出。現有工作區會保留各自的簽出，磁碟上的儲存庫不會被刪除。"
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "新工作區將不再簽出此儲存庫。現有工作區會保留它，磁碟上的內容不會被刪除。"
@@ -14043,6 +14055,10 @@ msgstr "來源"
 msgid "Source Available"
 msgstr "原始碼可見"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "{0} 的來源資料夾"
+
 msgid "Source folders"
 msgstr "來源資料夾"
 
@@ -16822,6 +16838,9 @@ msgstr "認真的團隊都在這裡"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "工作階段的起點：首頁、比較頁、文件、文章或更新日誌。有排名的內容會先出現在這裡，然後才反映在註冊上。"
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "建立存放此專案簽出內容之容器的位置。"
 
 msgid "Where the industry is, honestly"
 msgstr "行業實際走到了哪裡"

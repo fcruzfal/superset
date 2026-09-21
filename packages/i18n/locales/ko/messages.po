@@ -5022,6 +5022,9 @@ msgstr "“{title}”을(를) 삭제할까요?"
 msgid "Delete {0}?"
 msgstr "{0}을(를) 삭제할까요?"
 
+msgid "Delete {groupName}?"
+msgstr "{groupName}을(를) 삭제할까요?"
+
 msgid "Delete {name}?"
 msgstr "{name}을(를) 삭제할까요?"
 
@@ -5653,6 +5656,9 @@ msgstr "각 에이전트가 격리된 자체 Git worktree에서 실행됩니다.
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "첨부 파일은 각각 최대 {0} MB입니다."
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "각 폴더는 이 순서대로 자체 설정, 정리, 실행 명령을 실행합니다."
 
 msgid "Each in its own new tab"
 msgstr "각각 새 탭에서"
@@ -7965,6 +7971,9 @@ msgstr "항목"
 msgid "Its own branch and copy of the files"
 msgstr "독립된 브랜치와 파일 사본"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "소스 폴더는 각각 독립된 프로젝트로 이 기기에 남습니다."
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "다시 시작할 때까지 해당 워크스페이스와 터미널을 사용할 수 없습니다. Superset 트레이 메뉴 > 호스트 서비스 > 다시 시작을 사용하세요."
 
@@ -9338,6 +9347,9 @@ msgstr "신규 워크스페이스 생성자"
 
 msgid "New workspace in {name}"
 msgstr "{name}에 새 워크스페이스"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "새 워크스페이스에서는 폴더를 함께 체크아웃하지 않습니다. 기존 워크스페이스의 체크아웃은 그대로 유지되며 디스크에서 삭제되는 리포지토리는 없습니다."
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "새 워크스페이스에서는 이 리포지토리를 체크아웃하지 않습니다. 기존 워크스페이스는 그대로 유지되며 디스크에서 삭제되는 것은 없습니다."
@@ -14043,6 +14055,10 @@ msgstr "출처"
 msgid "Source Available"
 msgstr "소스 공개"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "{0}의 소스 폴더"
+
 msgid "Source folders"
 msgstr "소스 폴더"
 
@@ -16822,6 +16838,9 @@ msgstr "진지한 팀들이 있는 곳"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "세션이 시작되는 곳: 홈, 비교 페이지, 문서, 글, 변경 로그. 순위에 오른 콘텐츠는 가입에 나타나기 전에 여기에 먼저 나타납니다."
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "이 프로젝트의 체크아웃을 담는 컨테이너가 생성되는 위치입니다."
 
 msgid "Where the industry is, honestly"
 msgstr "업계의 현재 위치, 솔직하게"

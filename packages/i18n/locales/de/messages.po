@@ -5022,6 +5022,9 @@ msgstr "“{title}” löschen?"
 msgid "Delete {0}?"
 msgstr "{0} löschen?"
 
+msgid "Delete {groupName}?"
+msgstr "{groupName} löschen?"
+
 msgid "Delete {name}?"
 msgstr "{name} löschen?"
 
@@ -5653,6 +5656,9 @@ msgstr "Jeder Agent läuft in seinem eigenen isolierten Git-Worktree. Keine Merg
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "Jeder Anhang darf höchstens {0} MB groß sein."
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "Jeder Ordner führt seine eigenen Setup-, Teardown- und Ausführungsbefehle in dieser Reihenfolge aus."
 
 msgid "Each in its own new tab"
 msgstr "Jeder in einem eigenen neuen Tab"
@@ -7965,6 +7971,9 @@ msgstr "Eintrag"
 msgid "Its own branch and copy of the files"
 msgstr "Eigener Branch und eigene Kopie der Dateien"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "Seine Quellordner bleiben als eigenständige Projekte auf diesem Gerät."
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "Seine Arbeitsbereiche und Terminals sind nicht verfügbar, bis er neu startet — nutze das Superset-Menü in der Menüleiste > Host Service > Restart."
 
@@ -9338,6 +9347,9 @@ msgstr "neue Arbeitsbereich-Ersteller"
 
 msgid "New workspace in {name}"
 msgstr "Neuer Arbeitsbereich in {name}"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "Neue Arbeitsbereiche checken seine Ordner nicht mehr gemeinsam aus. Bestehende Arbeitsbereiche behalten ihre Checkouts, und es wird kein Repository von der Festplatte gelöscht."
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "Neue Arbeitsbereiche checken dieses Repository nicht mehr aus. Bestehende Arbeitsbereiche behalten es, und auf der Festplatte wird nichts gelöscht."
@@ -14043,6 +14055,10 @@ msgstr "Quelle"
 msgid "Source Available"
 msgstr "Source Available"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "Quellordner von {0}"
+
 msgid "Source folders"
 msgstr "Quellordner"
 
@@ -16822,6 +16838,9 @@ msgstr "Wo ernsthafte Teams stehen"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "Wo Sitzungen beginnen: die Startseite, eine Vergleichsseite, die Doku, ein Beitrag oder ein Changelog-Eintrag. Inhalte, die ranken, tauchen hier auf, bevor sie in den Registrierungen auftauchen."
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "Wo der Container angelegt wird, der die Checkouts dieses Projekts enthält."
 
 msgid "Where the industry is, honestly"
 msgstr "Wo die Branche wirklich steht"

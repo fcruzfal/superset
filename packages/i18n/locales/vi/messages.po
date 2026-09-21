@@ -5022,6 +5022,9 @@ msgstr "Xóa “{title}”?"
 msgid "Delete {0}?"
 msgstr "Xóa {0}?"
 
+msgid "Delete {groupName}?"
+msgstr "Xóa {groupName}?"
+
 msgid "Delete {name}?"
 msgstr "Xóa {name}?"
 
@@ -5653,6 +5656,9 @@ msgstr "Mỗi agent chạy trong git worktree tách biệt của riêng nó. Kh�
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "Mỗi tệp đính kèm tối đa {0} MB."
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "Mỗi thư mục chạy các lệnh thiết lập, dọn dẹp và chạy của riêng nó, theo thứ tự này."
 
 msgid "Each in its own new tab"
 msgstr "Mỗi lệnh một tab mới"
@@ -7965,6 +7971,9 @@ msgstr "Item"
 msgid "Its own branch and copy of the files"
 msgstr "Nhánh riêng và bản sao tệp riêng"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "Các thư mục nguồn của nó vẫn ở trên thiết bị này như những dự án riêng."
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "Các workspace và terminal của nó không khả dụng cho đến khi khởi động lại — dùng menu khay Superset > Host Service > Restart."
 
@@ -9338,6 +9347,9 @@ msgstr "người tạo workspace mới"
 
 msgid "New workspace in {name}"
 msgstr "Workspace mới trong {name}"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "Các workspace mới sẽ không còn checkout các thư mục của nó cùng nhau. Các workspace hiện có vẫn giữ bản checkout của mình và không có repository nào bị xóa khỏi ổ đĩa."
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "Các workspace mới sẽ không còn checkout repository này. Các workspace hiện có vẫn giữ nó và không có gì bị xóa khỏi ổ đĩa."
@@ -14043,6 +14055,10 @@ msgstr "Nguồn"
 msgid "Source Available"
 msgstr "Mã nguồn công khai"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "Thư mục nguồn của {0}"
+
 msgid "Source folders"
 msgstr "Thư mục nguồn"
 
@@ -16822,6 +16838,9 @@ msgstr "Nơi các đội nghiêm túc đang đứng"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "Nơi phiên bắt đầu: trang chủ, trang so sánh, tài liệu, bài viết hoặc mục changelog. Nội dung có thứ hạng xuất hiện ở đây trước khi xuất hiện trong đăng ký."
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "Nơi tạo container chứa các bản checkout của dự án này."
 
 msgid "Where the industry is, honestly"
 msgstr "Ngành đang ở đâu, nói thật"

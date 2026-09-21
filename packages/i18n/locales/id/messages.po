@@ -5022,6 +5022,9 @@ msgstr "Hapus “{title}”?"
 msgid "Delete {0}?"
 msgstr "Hapus {0}?"
 
+msgid "Delete {groupName}?"
+msgstr "Hapus {groupName}?"
+
 msgid "Delete {name}?"
 msgstr "Hapus {name}?"
 
@@ -5653,6 +5656,9 @@ msgstr "Tiap agen berjalan di worktree Git terisolasi sendiri. Tanpa konflik mer
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "Setiap lampiran maksimal {0} MB."
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "Setiap folder menjalankan perintah setup, teardown, dan run miliknya sendiri, dalam urutan ini."
 
 msgid "Each in its own new tab"
 msgstr "Masing-masing di tab barunya sendiri"
@@ -7965,6 +7971,9 @@ msgstr "Item"
 msgid "Its own branch and copy of the files"
 msgstr "Branch dan salinan file tersendiri"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "Folder sumbernya tetap ada di perangkat ini sebagai proyek tersendiri."
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "Workspace dan terminalnya tidak tersedia sampai layanan ini dimulai ulang — pakai menu tray Superset > Host Service > Restart."
 
@@ -9338,6 +9347,9 @@ msgstr "pembuat workspace baru"
 
 msgid "New workspace in {name}"
 msgstr "Workspace baru di {name}"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "Workspace baru tidak akan lagi melakukan checkout folder-foldernya bersamaan. Workspace yang sudah ada tetap menyimpan checkout-nya, dan tidak ada repositori yang dihapus dari disk."
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "Workspace baru tidak akan lagi melakukan checkout repositori ini. Workspace yang sudah ada tetap menyimpannya, dan tidak ada yang dihapus dari disk."
@@ -14043,6 +14055,10 @@ msgstr "Sumber"
 msgid "Source Available"
 msgstr "Source Available"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "Folder sumber dari {0}"
+
 msgid "Source folders"
 msgstr "Folder sumber"
 
@@ -16822,6 +16838,9 @@ msgstr "Tempat tim serius berada"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "Tempat sesi dimulai: beranda, halaman perbandingan, dokumentasi, artikel, atau entri changelog. Konten yang berperingkat muncul di sini sebelum muncul di pendaftaran."
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "Tempat kontainer yang menampung checkout proyek ini dibuat."
 
 msgid "Where the industry is, honestly"
 msgstr "Posisi industri, sejujurnya"

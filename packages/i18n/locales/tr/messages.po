@@ -5022,6 +5022,9 @@ msgstr "“{title}” silinsin mi?"
 msgid "Delete {0}?"
 msgstr "{0} silinsin mi?"
 
+msgid "Delete {groupName}?"
+msgstr "{groupName} silinsin mi?"
+
 msgid "Delete {name}?"
 msgstr "{name} silinsin mi?"
 
@@ -5653,6 +5656,9 @@ msgstr "Her ajan kendi yalıtılmış Git worktree'sinde çalışır. Birleştir
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "Her ek en fazla {0} MB olabilir."
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "Her klasör kendi kurulum, kapatma ve çalıştırma komutlarını bu sırayla çalıştırır."
 
 msgid "Each in its own new tab"
 msgstr "Her biri kendi yeni sekmesinde"
@@ -7965,6 +7971,9 @@ msgstr "Öğe"
 msgid "Its own branch and copy of the files"
 msgstr "Kendi dalı ve dosyaların kendi kopyası"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "Kaynak klasörleri bu cihazda kendi başına birer proje olarak kalır."
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "Yeniden başlayana kadar çalışma alanları ve terminalleri kullanılamaz — Superset tepsi menüsünde Host hizmeti > Yeniden başlat yolunu kullanın."
 
@@ -9338,6 +9347,9 @@ msgstr "yeni çalışma alanı oluşturanlar"
 
 msgid "New workspace in {name}"
 msgstr "{name} içinde yeni çalışma alanı"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "Yeni çalışma alanları klasörlerini artık birlikte çıkarmayacak. Mevcut çalışma alanları çıkardıkları kopyaları korur ve diskten hiçbir depo silinmez."
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "Yeni çalışma alanları bu depoyu artık çıkarmayacak. Mevcut çalışma alanları onu korur ve diskten hiçbir şey silinmez."
@@ -14043,6 +14055,10 @@ msgstr "Kaynak"
 msgid "Source Available"
 msgstr "Kaynağı açık"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "{0} projesinin kaynak klasörü"
+
 msgid "Source folders"
 msgstr "Kaynak klasörler"
 
@@ -16822,6 +16838,9 @@ msgstr "Ciddi takımların bulunduğu yer"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "Oturumların başladığı yer: ana sayfa, bir karşılaştırma sayfası, dokümantasyon, bir yazı veya bir değişiklik günlüğü kaydı. Sıralamaya giren içerik, kayıtlarda görünmeden önce burada görünür."
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "Bu projenin çıkarılan kopyalarını tutan kapsayıcının oluşturulacağı yer."
 
 msgid "Where the industry is, honestly"
 msgstr "Sektör dürüstçe nerede"

@@ -5022,6 +5022,9 @@ msgstr "Usunąć „{title}”?"
 msgid "Delete {0}?"
 msgstr "Usunąć {0}?"
 
+msgid "Delete {groupName}?"
+msgstr "Usunąć {groupName}?"
+
 msgid "Delete {name}?"
 msgstr "Usunąć {name}?"
 
@@ -5653,6 +5656,9 @@ msgstr "Każdy agent działa we własnym izolowanym worktree gita. Żadnych konf
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "Każdy załącznik może mieć maksymalnie {0} MB."
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "Każdy folder uruchamia własne polecenia konfiguracji, sprzątania i uruchamiania w tej kolejności."
 
 msgid "Each in its own new tab"
 msgstr "Każde we własnej nowej karcie"
@@ -7965,6 +7971,9 @@ msgstr "Element"
 msgid "Its own branch and copy of the files"
 msgstr "Własna gałąź i własna kopia plików"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "Jego foldery źródłowe pozostają na tym urządzeniu jako osobne projekty."
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "Jej obszary robocze i terminale są niedostępne do czasu restartu — użyj menu zasobnika Superset > Usługa hosta > Uruchom ponownie."
 
@@ -9338,6 +9347,9 @@ msgstr "nowi twórcy obszarów roboczych"
 
 msgid "New workspace in {name}"
 msgstr "Nowy obszar roboczy w {name}"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "Nowe obszary robocze nie będą już pobierać jego folderów razem. Istniejące obszary robocze zachowują swoje kopie, a z dysku nie zostanie usunięte żadne repozytorium."
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "Nowe obszary robocze przestaną pobierać to repozytorium. Istniejące obszary robocze je zachowują i nic nie zostanie usunięte z dysku."
@@ -14043,6 +14055,10 @@ msgstr "Źródło"
 msgid "Source Available"
 msgstr "Kod dostępny"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "Folder źródłowy projektu {0}"
+
 msgid "Source folders"
 msgstr "Foldery źródłowe"
 
@@ -16822,6 +16838,9 @@ msgstr "Tu są poważne zespoły"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "Gdzie zaczynają się sesje: strona główna, strona porównania, dokumentacja, wpis lub pozycja changelogu. Treści, które się pozycjonują, pojawiają się tutaj, zanim pojawią się w rejestracjach."
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "Gdzie powstaje kontener z kopiami roboczymi tego projektu."
 
 msgid "Where the industry is, honestly"
 msgstr "Gdzie naprawdę jest branża"

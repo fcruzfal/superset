@@ -5022,6 +5022,9 @@ msgstr "「{title}」を削除しますか?"
 msgid "Delete {0}?"
 msgstr "{0}を削除しますか?"
 
+msgid "Delete {groupName}?"
+msgstr "{groupName} を削除しますか？"
+
 msgid "Delete {name}?"
 msgstr "{name}を削除しますか?"
 
@@ -5653,6 +5656,9 @@ msgstr "各エージェントは独立したGitワークツリーで動きます
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "添付ファイルは1件あたり最大{0} MBです。"
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "各フォルダは、この順序でそれぞれのセットアップ、ティアダウン、実行コマンドを実行します。"
 
 msgid "Each in its own new tab"
 msgstr "それぞれ新しいタブで"
@@ -7965,6 +7971,9 @@ msgstr "Item"
 msgid "Its own branch and copy of the files"
 msgstr "独自のブランチとファイルのコピー"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "ソースフォルダはこのデバイスに、それぞれ独立したプロジェクトとして残ります。"
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "再起動するまで、そのワークスペースとターミナルは利用できません — Supersetのトレイメニューから「ホストサービス」>「再起動」を実行してください。"
 
@@ -9338,6 +9347,9 @@ msgstr "新規ワークスペース作成者"
 
 msgid "New workspace in {name}"
 msgstr "{name} に新規ワークスペース"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "新しいワークスペースではフォルダがまとめてチェックアウトされなくなります。既存のワークスペースのチェックアウトはそのまま残り、リポジトリがディスクから削除されることはありません。"
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "新しいワークスペースではこのリポジトリをチェックアウトしなくなります。既存のワークスペースはそのまま保持され、ディスクからは何も削除されません。"
@@ -14043,6 +14055,10 @@ msgstr "ソース"
 msgid "Source Available"
 msgstr "ソース公開"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "{0} のソースフォルダ"
+
 msgid "Source folders"
 msgstr "ソースフォルダ"
 
@@ -16822,6 +16838,9 @@ msgstr "本気のチームの現在地"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "セッションの開始地点: ホーム、比較ページ、ドキュメント、記事、変更履歴。ランクインしたコンテンツは、登録に現れる前にここに現れます。"
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "このプロジェクトのチェックアウトを格納するコンテナが作成される場所。"
 
 msgid "Where the industry is, honestly"
 msgstr "業界の現在地、正直なところ"

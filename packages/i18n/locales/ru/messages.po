@@ -5022,6 +5022,9 @@ msgstr "Удалить «{title}»?"
 msgid "Delete {0}?"
 msgstr "Удалить {0}?"
 
+msgid "Delete {groupName}?"
+msgstr "Удалить {groupName}?"
+
 msgid "Delete {name}?"
 msgstr "Удалить {name}?"
 
@@ -5653,6 +5656,9 @@ msgstr "Каждый агент работает в собственном из�
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "Каждое вложение — не более {0} МБ."
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "Каждая папка выполняет свои команды настройки, очистки и запуска в этом порядке."
 
 msgid "Each in its own new tab"
 msgstr "Каждая в своей новой вкладке"
@@ -7965,6 +7971,9 @@ msgstr "Элемент"
 msgid "Its own branch and copy of the files"
 msgstr "Собственная ветка и собственная копия файлов"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "Его исходные папки остаются на этом устройстве как самостоятельные проекты."
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "Её рабочие области и терминалы недоступны до перезапуска — откройте меню Superset в трее > Host Service > Restart."
 
@@ -9338,6 +9347,9 @@ msgstr "новые создатели рабочих областей"
 
 msgid "New workspace in {name}"
 msgstr "Новая рабочая область в {name}"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "Новые рабочие области больше не будут извлекать его папки вместе. Существующие рабочие области сохранят свои копии, и ни один репозиторий не будет удалён с диска."
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "Новые рабочие области перестанут извлекать этот репозиторий. Существующие рабочие области сохранят его, и с диска ничего не удаляется."
@@ -14043,6 +14055,10 @@ msgstr "Источник"
 msgid "Source Available"
 msgstr "Исходный код доступен"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "Исходная папка проекта {0}"
+
 msgid "Source folders"
 msgstr "Исходные папки"
 
@@ -16822,6 +16838,9 @@ msgstr "Где сейчас серьёзные команды"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "Где начинаются сессии: главная, страница сравнения, документация, запись или пункт changelog. Контент, который ранжируется, появляется здесь раньше, чем в регистрациях."
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "Где создаётся контейнер, в котором лежат копии этого проекта."
 
 msgid "Where the industry is, honestly"
 msgstr "Где отрасль на самом деле"

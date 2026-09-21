@@ -5022,6 +5022,9 @@ msgstr "Smazat „{title}“?"
 msgid "Delete {0}?"
 msgstr "Smazat {0}?"
 
+msgid "Delete {groupName}?"
+msgstr "Smazat {groupName}?"
+
 msgid "Delete {name}?"
 msgstr "Smazat {name}?"
 
@@ -5653,6 +5656,9 @@ msgstr "Každý agent běží ve vlastním izolovaném git worktree. Žádné ko
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "Každá příloha může mít nejvýše {0} MB."
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "Každá složka spouští vlastní příkazy pro setup, teardown a spuštění, a to v tomto pořadí."
 
 msgid "Each in its own new tab"
 msgstr "Každý ve vlastní nové kartě"
@@ -7965,6 +7971,9 @@ msgstr "Položka"
 msgid "Its own branch and copy of the files"
 msgstr "Vlastní větev a vlastní kopie souborů"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "Jeho zdrojové složky zůstanou v tomto zařízení jako samostatné projekty."
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "Její pracovní prostory a terminály nebudou dostupné, dokud se nerestartuje — použijte nabídku Superset na liště > Host Service > Restart."
 
@@ -9338,6 +9347,9 @@ msgstr "noví tvůrci pracovních prostorů"
 
 msgid "New workspace in {name}"
 msgstr "Nový pracovní prostor v {name}"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "Nové pracovní prostory už jeho složky nebudou načítat společně. Stávající pracovní prostory si své kopie ponechají a z disku se nesmaže žádný repozitář."
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "Nové pracovní prostory už tento repozitář nebudou načítat. Stávající pracovní prostory si ho ponechají a z disku se nic nesmaže."
@@ -14043,6 +14055,10 @@ msgstr "Zdroj"
 msgid "Source Available"
 msgstr "Dostupný zdrojový kód"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "Zdrojová složka projektu {0}"
+
 msgid "Source folders"
 msgstr "Zdrojové složky"
 
@@ -16822,6 +16838,9 @@ msgstr "Kde jsou seriózní týmy"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "Kde relace začínají: domovská stránka, srovnávací stránka, dokumentace, příspěvek nebo záznam v changelogu. Obsah, který se umisťuje, se objeví tady dřív než v registracích."
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "Kde se vytvoří kontejner s pracovními kopiemi tohoto projektu."
 
 msgid "Where the industry is, honestly"
 msgstr "Kde obor upřímně je"

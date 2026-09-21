@@ -5022,6 +5022,9 @@ msgstr "删除“{title}”？"
 msgid "Delete {0}?"
 msgstr "删除{0}？"
 
+msgid "Delete {groupName}?"
+msgstr "删除 {groupName}？"
+
 msgid "Delete {name}?"
 msgstr "删除{name}？"
 
@@ -5653,6 +5656,9 @@ msgstr "每个智能体都跑在自己隔离的Git worktree里。没有合并冲
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "每个附件最大为{0} MB。"
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "每个文件夹按此顺序运行各自的初始化、清理和运行命令。"
 
 msgid "Each in its own new tab"
 msgstr "每条各占一个新标签页"
@@ -7965,6 +7971,9 @@ msgstr "条目"
 msgid "Its own branch and copy of the files"
 msgstr "独立的分支和文件副本"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "它的源文件夹会作为各自独立的项目保留在此设备上。"
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "在它重启之前，其工作区和终端都不可用，请使用Superset托盘菜单 > 主机服务 > 重启。"
 
@@ -9338,6 +9347,9 @@ msgstr "新增工作区创建者"
 
 msgid "New workspace in {name}"
 msgstr "在 {name} 中新建工作区"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "新工作区将不再把它的文件夹一起检出。现有工作区会保留各自的检出，磁盘上的仓库不会被删除。"
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "新工作区将不再检出此仓库。现有工作区会保留它，磁盘上的内容不会被删除。"
@@ -14043,6 +14055,10 @@ msgstr "来源"
 msgid "Source Available"
 msgstr "源码可见"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "{0} 的源文件夹"
+
 msgid "Source folders"
 msgstr "源文件夹"
 
@@ -16822,6 +16838,9 @@ msgstr "认真的团队都在这里"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "会话的起点：首页、对比页、文档、文章或更新日志。有排名的内容会先出现在这里，然后才体现在注册上。"
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "创建存放此项目检出内容的容器的位置。"
 
 msgid "Where the industry is, honestly"
 msgstr "行业实际走到了哪里"

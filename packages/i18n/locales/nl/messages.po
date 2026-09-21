@@ -5022,6 +5022,9 @@ msgstr "“{title}” verwijderen?"
 msgid "Delete {0}?"
 msgstr "{0} verwijderen?"
 
+msgid "Delete {groupName}?"
+msgstr "{groupName} verwijderen?"
+
 msgid "Delete {name}?"
 msgstr "{name} verwijderen?"
 
@@ -5653,6 +5656,9 @@ msgstr "Elke agent draait in zijn eigen geïsoleerde Git-worktree. Geen merge-co
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "Elke bijlage is maximaal {0} MB."
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "Elke map voert zijn eigen setup-, teardown- en uitvoercommando's uit, in deze volgorde."
 
 msgid "Each in its own new tab"
 msgstr "Elk in een eigen nieuw tabblad"
@@ -7965,6 +7971,9 @@ msgstr "Item"
 msgid "Its own branch and copy of the files"
 msgstr "Een eigen branch en een eigen kopie van de bestanden"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "De bronmappen blijven als zelfstandige projecten op dit apparaat staan."
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "De werkruimtes en terminals zijn niet beschikbaar tot de service opnieuw start — gebruik het Superset-menu in de menubalk > Hostservice > Opnieuw starten."
 
@@ -9338,6 +9347,9 @@ msgstr "nieuwe makers van werkruimtes"
 
 msgid "New workspace in {name}"
 msgstr "Nieuwe werkruimte in {name}"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "Nieuwe werkruimtes checken de mappen niet meer samen uit. Bestaande werkruimtes behouden hun checkouts en er wordt geen repository van schijf verwijderd."
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "Nieuwe werkruimtes checken deze repository niet meer uit. Bestaande werkruimtes behouden hem en er wordt niets van schijf verwijderd."
@@ -14043,6 +14055,10 @@ msgstr "Bron"
 msgid "Source Available"
 msgstr "Source available"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "Bronmap van {0}"
+
 msgid "Source folders"
 msgstr "Bronmappen"
 
@@ -16822,6 +16838,9 @@ msgstr "Waar serieuze teams staan"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "Waar sessies beginnen: de homepage, een vergelijkingspagina, de docs, een post of een changelog-item. Content die rankt verschijnt hier voordat ze in aanmeldingen verschijnt."
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "Waar de container met de checkouts van dit project wordt aangemaakt."
 
 msgid "Where the industry is, honestly"
 msgstr "Waar de sector staat, eerlijk gezegd"

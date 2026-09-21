@@ -5022,6 +5022,9 @@ msgstr "Delete “{title}”?"
 msgid "Delete {0}?"
 msgstr "Delete {0}?"
 
+msgid "Delete {groupName}?"
+msgstr "Delete {groupName}?"
+
 msgid "Delete {name}?"
 msgstr "Delete {name}?"
 
@@ -5653,6 +5656,9 @@ msgstr "Each agent runs in its own isolated Git worktree. No merge conflicts, no
 #. placeholder {0}: formatNumber(MAX_ATTACHMENT_BYTES / 1024 / 1024)
 msgid "Each attachment is at most {0} MB."
 msgstr "Each attachment is at most {0} MB."
+
+msgid "Each folder runs its own setup, teardown and run commands, in this order."
+msgstr "Each folder runs its own setup, teardown and run commands, in this order."
 
 msgid "Each in its own new tab"
 msgstr "Each in its own new tab"
@@ -7965,6 +7971,9 @@ msgstr "Item"
 msgid "Its own branch and copy of the files"
 msgstr "Its own branch and copy of the files"
 
+msgid "Its source folders stay on this device as projects of their own."
+msgstr "Its source folders stay on this device as projects of their own."
+
 msgid "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 msgstr "Its workspaces and terminals are unavailable until it restarts — use the Superset tray menu > Host Service > Restart."
 
@@ -9338,6 +9347,9 @@ msgstr "new workspace creators"
 
 msgid "New workspace in {name}"
 msgstr "New workspace in {name}"
+
+msgid "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
+msgstr "New workspaces will no longer check its folders out together. Existing workspaces keep their checkouts, and no repository is deleted from disk."
 
 msgid "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
 msgstr "New workspaces will stop checking this repository out. Existing workspaces keep it, and nothing is deleted from disk."
@@ -14043,6 +14055,10 @@ msgstr "Source"
 msgid "Source Available"
 msgstr "Source Available"
 
+#. placeholder {0}: parentProject.name
+msgid "Source folder of {0}"
+msgstr "Source folder of {0}"
+
 msgid "Source folders"
 msgstr "Source folders"
 
@@ -16822,6 +16838,9 @@ msgstr "Where serious teams are"
 
 msgid "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
 msgstr "Where sessions begin: the home page, a compare page, the docs, a post, or a changelog entry. Content that ranks shows up here before it shows up in signups."
+
+msgid "Where the container holding this project's checkouts is created."
+msgstr "Where the container holding this project's checkouts is created."
 
 msgid "Where the industry is, honestly"
 msgstr "Where the industry is, honestly"
