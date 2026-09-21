@@ -1,0 +1,27 @@
+packages/host-service/src/runtime/pull-requests/pull-requests.test.ts
+  s_36072414c8c384::t_c0d11cd7f2d3c9 434-481
+apps/desktop/src/renderer/routes/_authenticated/_dashboard/v2-workspace/$workspaceId/components/ChangesControl/components/PRStatusGroup/PRStatusGroup.tsx
+  s_36072414c8c384::t_c2d220d66c307d 82-83,94
+packages/host-service/src/trpc/router/pull-requests/procedures/merge.ts
+  s_36072414c8c384::t_c2d220d66c307d 31-37
+packages/host-service/src/trpc/router/github/github.ts
+  s_36072414c8c384::t_c2d220d66c307d 337-343
+packages/host-service/src/runtime/pull-requests/pull-requests.ts
+  s_36072414c8c384::t_cfabeaebb61b02 539-557,1129,1661-1665
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "ed4916e454fd2055f851d423f15b86e92286a87c",
+  "prompts": {},
+  "sessions": {
+    "s_36072414c8c384": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "b04ee470-f3d9-41c1-b34b-6e672e3a119e",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "PipeCruz <pipe@akkari.io>"
+    }
+  }
+}
