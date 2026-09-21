@@ -1,0 +1,27 @@
+apps/mobile/modules/live-activity/src/index.ts
+  s_bc610d5d2f1b5a::t_319162213ddbdb 21-25,40
+apps/mobile/modules/live-activity/src/orderRows/index.ts
+  s_bc610d5d2f1b5a::t_319162213ddbdb 1
+apps/mobile/modules/live-activity/src/orderRows/orderRows.test.ts
+  s_bc610d5d2f1b5a::t_319162213ddbdb 1-46
+apps/mobile/modules/live-activity/src/orderRows/orderRows.ts
+  s_bc610d5d2f1b5a::t_319162213ddbdb 1-24
+apps/mobile/screens/(authenticated)/(home)/home/hooks/useAgentLiveActivity/useAgentLiveActivity.ts
+  s_bc610d5d2f1b5a::t_a7c7a7bca4035e 107,115-116
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "10a94fe09e970609a48e433babc1c87eebb10b8c",
+  "prompts": {},
+  "sessions": {
+    "s_bc610d5d2f1b5a": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "deb73435-5195-455f-8e54-4cb38c4c3cc6",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "PipeCruz <pipe@akkari.io>"
+    }
+  }
+}
