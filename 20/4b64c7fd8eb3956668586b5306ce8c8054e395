@@ -1,0 +1,30 @@
+packages/host-service/drizzle/0036_dedupe_project_repo_path.sql
+  s_bf3ff3aa08f114::t_2df6c26d8172b5 1-17,26-30,32
+  s_bf3ff3aa08f114::t_67372d7888b749 31
+  s_bf3ff3aa08f114::t_d0e07701429b43 18-25
+packages/host-service/src/db/migrations.test.ts
+  s_bf3ff3aa08f114::t_00317d442c54c0 152-176,185,202-257
+  s_bf3ff3aa08f114::t_f418901da828b7 177-184,186-201
+packages/host-service/drizzle/meta/0036_snapshot.json
+  s_bf3ff3aa08f114::t_5d05c9a9f8f11c 1-1161
+packages/host-service/drizzle/meta/_journal.json
+  s_bf3ff3aa08f114::t_76c021d02e3000 256-262
+packages/host-service/src/db/schema.ts
+  s_bf3ff3aa08f114::t_f928334aaf2c5e 119
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "204b64c7fd8eb3956668586b5306ce8c8054e395",
+  "prompts": {},
+  "sessions": {
+    "s_bf3ff3aa08f114": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "010277f3-307a-4de2-8c0a-7b304fa7b4b8",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "PipeCruz <pipe@akkari.io>"
+    }
+  }
+}
