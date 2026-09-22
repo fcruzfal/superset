@@ -1,0 +1,23 @@
+apps/desktop/src/renderer/components/IssueLinkCommand/IssueLinkCommand.tsx
+  s_fda029e2d552bb::t_46558ad04b7288 15,24,53-56,58,104-115
+packages/db/src/task-list-query.test.ts
+  s_fda029e2d552bb::t_604d76b8775b75 50-58
+packages/db/src/task-list-query.ts
+  s_fda029e2d552bb::t_a0cb3466c0b97b 109-111
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "af2b4b8913c422d3807a98d179f205e40f6364e7",
+  "prompts": {},
+  "sessions": {
+    "s_fda029e2d552bb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f912b655-c1eb-493b-9e6d-deed4f4650be",
+        "model": "claude-opus-5"
+      },
+      "human_author": "PipeCruz <pipe@akkari.io>"
+    }
+  }
+}
