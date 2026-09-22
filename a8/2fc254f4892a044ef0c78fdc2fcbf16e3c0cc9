@@ -1,0 +1,37 @@
+packages/host-service/src/runtime/pull-requests/pull-requests.test.ts
+  s_058b63d733b065::t_8557f681b657c4 1906-1907
+  s_058b63d733b065::t_0600b78b1c4e9b 12-15,1628,1630-1631,1634,1637,1642-1645,1649-1651,1745-1795,1797-1905
+  s_058b63d733b065::t_2a1773082865b7 1796
+packages/host-service/src/events/event-bus.ts
+  s_058b63d733b065::t_7907e2d093a4b3 62-65,242-250,254-256
+  s_058b63d733b065::t_7a68cad3b59fc5 257-258
+  s_058b63d733b065::t_2a1773082865b7 124
+packages/host-service/src/runtime/pull-requests/pull-requests.ts
+  s_058b63d733b065::t_2a1773082865b7 364-383
+  s_058b63d733b065::t_7907e2d093a4b3 352-353,355,358,384-387
+  s_fda029e2d552bb::t_ba43ba3b982653 82-84,245
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "a82fc254f4892a044ef0c78fdc2fcbf16e3c0cc9",
+  "prompts": {},
+  "sessions": {
+    "s_058b63d733b065": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "91ec4b99-e262-47ae-acb8-ade39b49b7d0",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "PipeCruz <pipe@akkari.io>"
+    },
+    "s_fda029e2d552bb": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f912b655-c1eb-493b-9e6d-deed4f4650be",
+        "model": "claude-fable-5-1"
+      },
+      "human_author": "PipeCruz <pipe@akkari.io>"
+    }
+  }
+}
